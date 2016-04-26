@@ -1,0 +1,12 @@
+<div class="pagination clearfix">
+  {{#if prev}}
+  <div class="column medium-6 large-6 left">
+    <a class="newer-posts" href="{{page_url prev}}"><div data-icon="ei-chevron-left"></div> <span>Previous</span></a>
+  </div>
+  {{/if}}
+  {{#if next}}
+  <div class="column medium-6 large-6 right">
+    <a class="older-posts" href="{{page_url next}}"><span>Next</span> <div data-icon="ei-chevron-right"></div></a>
+  </div>
+  {{/if}}
+</div>

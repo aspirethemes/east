@@ -1,0 +1,33 @@
+//---------------------------
+//
+// Post Meta
+//
+//---------------------------
+
+.post__tags {
+  margin-bottom: $line-height__base;
+  font-size: $font-size__small;
+
+  a {
+    padding: quarter($line-height__small) half($line-height__small);
+    margin-right: quarter($line-height__base);
+
+    font-size: $font-size__tiny;
+    line-height: $line-height__small;
+
+    color: $color__type--hover;
+    border: 1px solid $border-color;
+    text-decoration: none;
+    transition: $base-transition-speed;
+
+    &:before {
+      content: "#";
+      padding-right: 2px;
+    }
+
+    &:hover {
+      color: $color__type;
+      border-color: $color__type;
+    }
+  }
+}

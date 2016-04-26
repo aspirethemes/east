@@ -1,0 +1,66 @@
+<div class="sidebar">
+  <div class="row">
+
+    <div class="column small-8 large-12">
+      <h1 class="sidebar__logo logo"><a href="{{@blog.url}}">{{@blog.title}}</a></h1>
+      <div class="sidebar__description font-tiny">{{@blog.description}}</div>
+    </div>
+
+    <label class="off-canvas-toggle"><span data-icon="ei-navicon" data-size="s"></span></label>
+
+    <div class="off-canvas-content">
+
+      <div class="column small-12 large-12">
+        <nav class="sidebar__navigation">
+          <ul class="list-bare text-center">
+            {{navigation}}
+            <li><a class="subscribe-button icon-feed" href="{{@blog.url}}/rss/">RSS</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="column small-12 large-12">
+        <ul class="sidebar__social-nav social-icons">
+          <li>
+            <a href="http://www.twitter.com/{{! Add Twitter handle }}" target="_blank">
+              <span data-icon="ei-sc-twitter" data-size="s"></span>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.facebook.com/{{! Add Facebook handle }}" target="_blank">
+              <span data-icon="ei-sc-facebook" data-size="s"></span>
+            </a>
+          </li>
+          <li>
+            <a href="https://instagram.com/{{! Add Instagram handle }}" target="_blank">
+              <span data-icon="ei-sc-instagram" data-size="s"></span>
+            </a>
+          </li>
+          <li>
+            <a class="toggle-search-button" href="#">
+              <span data-icon="ei-search" data-size="s"></span>
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="sidebar__bottom">
+        <div class="column small-12 large-12">
+          <div class="font-tiny">
+            &copy; {{date format="YYYY"}} {{@blog.title}}
+          </div>
+        </div>
+
+        <div class="column small-12 large-12 poweredby">
+          <div class="font-tiny">
+            Powered by <a href="https://ghost.org">Ghost</a>
+          </div>
+        </div>
+      </div>
+
+    </div> {{!-- off-canvas-content --}}
+
+  </div>
+</div>
+
+{{> search-form}}

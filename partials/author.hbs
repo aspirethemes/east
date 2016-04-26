@@ -1,0 +1,41 @@
+{{! Everything inside the #author tags pulls data from the author }}
+
+{{#author}}
+<div class="box box--author">
+
+  {{#if image}}
+  <figure class="author-image">
+    <div class="img" style="background-image: url({{image}})"><span class="hidden">{{name}}'s Picture</span></div>
+  </figure>
+  {{/if}}
+
+  <div class="box__body">
+
+    <h4 class="box__title">
+      <a href="{{url}}">{{name}}</a>
+    </h4>
+
+    {{#if bio}}
+    <p class="box__text">{{bio}}</p>
+    {{/if}}
+
+    <div class="author-meta box__text">
+      {{#if location}}
+      <div class="author-location inline-block">
+        <div data-icon="ei-location" data-size="s"></div>
+        {{location}}
+      </div>
+      {{/if}}
+
+      {{#if website}}
+      <div class="author-link inline-block">
+        <div data-icon="ei-link" data-size="s"></div>
+        <a href="{{website}}">{{website}}</a>
+      </div>
+      {{/if}}
+    </div>
+
+  </div>
+
+</div>
+{{/author}}

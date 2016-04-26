@@ -1,0 +1,22 @@
+{{!< default}}
+{{! The tag above means - insert everything in this file into the {body} of the default.hbs template }}
+
+<div class="wrapper">
+
+  <div class="row row--full">
+    <div class="column large-12">
+      {{> "author"}}
+    </div>
+  </div>
+
+  <div class="row row--full">
+    <div class="post-list">
+      {{> loop}}
+    </div>
+  </div>
+
+  <div class="row row--full">
+    {{pagination}}
+  </div>
+
+</div>

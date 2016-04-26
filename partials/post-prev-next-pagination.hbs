@@ -1,0 +1,13 @@
+<div class="row">
+  <div class="post-prev-next-pagination post-list">
+
+    {{#prev_post}}
+    {{> post-card passed_class="medium-6 large-6 post-navigation prev" title_class="post-card__title--medium"}}
+    {{/prev_post}}
+
+    {{#next_post}}
+    {{> post-card passed_class="medium-6 large-6 post-navigation next" title_class="post-card__title--medium"}}
+    {{/next_post}}
+
+  </div>
+</div>
