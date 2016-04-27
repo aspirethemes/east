@@ -24,6 +24,8 @@ textarea {
 
   outline: none;
   background: transparent;
+  appearance: none;
+  border-radius: 0;
   transition: $base-transition-speed;
 
   @media #{$large-up} {

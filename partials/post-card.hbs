@@ -1,9 +1,9 @@
-<article class="post-card-wrap column medium-6 large-4 {{passed_class}} {{#is "home"}}{{#if @first}} post-first {{/if}}{{/is}}">
+<article class="post-card-wrap column medium-6 large-4 {{passed_class}}">
 
   <div class="post-card {{#if featured}} post-card--featured {{/if}}">
 
     <a href="{{url}}" class="block" title="{{title}}">
-      <div class="grey-bg post-card__image {{#is "home"}}{{#if @first}} post-card__image--has-outline {{/if}}{{/is}} CoverImage FlexEmbed FlexEmbed--16by9 {{#if image}}" style="background-image: url({{image}}){{else}}no-cover{{/if}}">
+      <div class="grey-bg post-card__image CoverImage FlexEmbed FlexEmbed--16by9 {{#if image}}" style="background-image: url({{image}}){{else}}no-cover{{/if}}">
         {{#if featured}}
         <span title="Featured Post">
           <span class="post-card--featured__icon" data-icon="ei-star" data-size="s"></span>
@@ -23,7 +23,7 @@
       <time class="post-card__meta__date" datetime="{{date format="YYYY-MM-DD"}}">{{date format="DD MMMM YYYY"}}</time>
     </div>
 
-    <h2 class="post-card__title post-card__title--medium {{title_class}}">
+    <h2 class="post-card__title post-card__title--medium">
       <a title="{{title}}" href="{{url}}">{{title}}</a>
     </h2>
 

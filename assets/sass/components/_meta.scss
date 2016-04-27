@@ -5,12 +5,13 @@
 //---------------------------
 
 .post__tags {
-  margin-bottom: $line-height__base;
+  margin-bottom: $line-height__base - half(quarter($line-height__base));
   font-size: $font-size__small;
 
   a {
-    padding: quarter($line-height__small) half($line-height__small);
-    margin-right: quarter($line-height__base);
+    padding: half(quarter($line-height__small)) half($line-height__small);
+    margin: half(quarter($line-height__base)) quarter($line-height__base) half(quarter($line-height__base)) 0;
+    display: inline-block;
 
     font-size: $font-size__tiny;
     line-height: $line-height__small;
