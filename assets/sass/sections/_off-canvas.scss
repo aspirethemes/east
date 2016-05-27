@@ -1,0 +1,52 @@
+//---------------------------
+//
+// Off-canvas
+//
+//---------------------------
+
+// Off Canvas menu
+
+.off-canvas-toggle {
+  display: none;
+
+  @media #{$large-down} {
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: $line-height__small;
+    transform: translateY(-50%);
+    font-size: $font-size__small;
+    cursor: pointer;
+  }
+}
+
+@media #{$large-down} {
+
+  // prevent horizontal scroll during off-canvas
+  html,
+  body {
+    overflow-x: hidden;
+  }
+
+  .off-canvas-content {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: $sidebar-width;
+    height: 100%;
+
+    background-color: #fff;
+    border-left: 1px solid $border-color;
+    transform: translate3d(0px, 0px, 0px) translateX($sidebar-width);
+    transition: all $base-transition-speed cubic-bezier(0.16, 0.63, 0.45, 0.98) 0s;
+  }
+
+  .off-canvas-container {
+    transform: translate3d(0, 0, 0) translateX(0);
+    transition: all $base-transition-speed cubic-bezier(0.16, 0.63, 0.45, 0.98) 0s;
+
+    &.is-active {
+      transform: translate3d(0px, 0px, 0px) translateX(-$sidebar-width);
+    }
+  }
+}

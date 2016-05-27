@@ -2,7 +2,11 @@
   <div class="row">
 
     <div class="column small-8 large-12">
-      <h1 class="sidebar__logo logo"><a href="{{@blog.url}}">{{@blog.title}}</a></h1>
+      {{#if @blog.logo}}
+      <a class="logo" href="{{@blog.url}}"><img class="logo__img" src="{{@blog.logo}}" alt="Logo"></a>
+      {{else}}
+      <h1 class="logo"><a href="{{@blog.url}}">{{@blog.title}}</a></h1>
+      {{/if}}
       <div class="sidebar__description font-tiny">{{@blog.description}}</div>
     </div>
 
