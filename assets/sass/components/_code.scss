@@ -1,7 +1,5 @@
 //---------------------------
-//
 // Source code
-//
 //---------------------------
 
 pre,
@@ -11,6 +9,7 @@ code {
 }
 
 // Code block
+
 pre {
   overflow: auto;
   margin-top: 0;
@@ -28,6 +27,7 @@ pre {
 }
 
 // Inline code
+
 p code {
   padding: ($line-height__medium / 8) quarter($line-height__medium);
 }

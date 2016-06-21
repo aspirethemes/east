@@ -1,6 +1,6 @@
-'use strict';
-
 $(document).ready(function() {
+
+  'use strict';
 
   // ========================
   // Prevent FOUC of content
@@ -12,7 +12,7 @@ $(document).ready(function() {
   // Responsive videos
   // =================
 
-  $(".wrapper").fitVids();
+  $('.wrapper').fitVids();
 
   // ===============
   // Off Canvas menu
@@ -30,7 +30,6 @@ $(document).ready(function() {
   var search_field = $('.search-form__field'),
       search_results = $('.search-results'),
       toggle_search = $('.toggle-search-button'),
-      close_search = $('.close-search-button'),
       search_result_template = "\
         <div class='search-results__item'>\
           <a class='search-results__item__title' href='{{link}}'>{{title}}</a>\
@@ -45,7 +44,7 @@ $(document).ready(function() {
     $('.off-canvas-container').removeClass('is-active');
 
     setTimeout(function() {
-      search_field.focus()
+      search_field.focus();
     }, 500);
   });
 

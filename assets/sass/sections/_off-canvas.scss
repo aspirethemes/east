@@ -1,7 +1,5 @@
 //---------------------------
-//
 // Off-canvas
-//
 //---------------------------
 
 // Off Canvas menu
@@ -23,6 +21,7 @@
 @media #{$large-down} {
 
   // prevent horizontal scroll during off-canvas
+
   html,
   body {
     overflow-x: hidden;

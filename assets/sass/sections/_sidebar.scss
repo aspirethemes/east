@@ -1,7 +1,5 @@
 //---------------------------
-//
 // Sidebar
-//
 //---------------------------
 
 .logo {
@@ -142,6 +140,7 @@
   }
 
   // Add border to sidebar (as header) in homepage in small screen
+
   @media #{$large-down} {
     .home-template & {
       border-bottom: 1px solid $border-color;
