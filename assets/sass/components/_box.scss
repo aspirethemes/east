@@ -14,10 +14,6 @@
     margin-bottom: $line-height__base;
   }
 
-  &--news-letter input[type='email'] {
-    margin-bottom: 0;
-  }
-
   &__icon {
     float: left;
     width: $line-height__base;
@@ -31,7 +27,9 @@
   }
 
   &__body {
-    overflow: hidden;
+    @media #{$medium-up} {
+      overflow: hidden;
+    }
   }
 
   &__text {

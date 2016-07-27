@@ -1,9 +1,8 @@
 <article class="post-card-wrap column medium-6 large-4 {{passed_class}}">
 
   <div class="post-card {{#if featured}} post-card--featured {{/if}}">
-
     <a href="{{url}}" class="block" title="{{title}}">
-      <div class="grey-bg post-card__image CoverImage FlexEmbed FlexEmbed--16by9 {{#if image}}" style="background-image: url({{image}}){{else}}no-cover{{/if}}">
+      <div class="grey-bg post-card__image CoverImage FlexEmbed FlexEmbed--16by9" {{#if image}} style="background-image: url({{image}}) {{/if}}">
         {{#if featured}}
         <span title="Featured Post">
           <span class="post-card--featured__icon" data-icon="ei-star" data-size="s"></span>

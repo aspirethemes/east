@@ -1,32 +1,26 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
 <head>
-  {{! Document Settings }}
   <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-
-  {{! Page Meta }}
-  <title>{{meta_title}}</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="description" content="{{meta_description}}">
-
-  <meta name="HandheldFriendly" content="True">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{meta_title}}</title>
 
   <link rel="shortcut icon" href="{{asset "/favicon.ico"}}">
 
+  {{! Prevent FOUC of Content }}
   <style type="text/css">
-    /* Prevent FOUC of content */
     .no-fouc { display: none; }
   </style>
 
   <script type="text/javascript">
-    // Prevent FOUC of content
     document.documentElement.className = 'no-fouc';
   </script>
 
-  <link href="https://fonts.googleapis.com/css?family=Merriweather:400,700,300" rel="stylesheet" type="text/css">
-  <script src="https://cdn.jsdelivr.net/evil-icons/1.7.8/evil-icons.min.js"></script>
-  <link rel="stylesheet" href="{{asset "css/main.min.css"}}">
+  <script src="https://cdn.jsdelivr.net/evil-icons/1.8.0/evil-icons.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Merriweather:400,700,300" rel="stylesheet">
+  <link href="{{asset "css/main.min.css"}}" rel="stylesheet">
 
   {{! Ghost outputs important style and meta data with this tag }}
   {{ghost_head}}

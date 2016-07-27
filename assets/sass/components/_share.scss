@@ -36,9 +36,7 @@
     }
   }
 
-  &__icon {
-    fill: $color__type;
-  }
+  &__icon { fill: $color__type--hover; }
 
   @media #{$medium-down} {
     margin-bottom: $line-height__medium;

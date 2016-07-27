@@ -27,9 +27,12 @@
 }
 
 .author-meta {
-  text-indent: -2px;
-}
+  text-indent: - 1px;
 
-.author-location {
-  margin-right: quarter($line-height__base);
+  .icon {
+    fill: $color__type;
+    transition: $base-transition-speed;
+  }
+
+  a .icon:hover { fill: $color__type--hover; }
 }

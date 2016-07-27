@@ -3,9 +3,9 @@
 
     <div class="column small-8 large-12">
       {{#if @blog.logo}}
-      <a class="logo" href="{{@blog.url}}"><img class="logo__img" src="{{@blog.logo}}" alt="Logo"></a>
+        <a class="logo" href="{{@blog.url}}"><img class="logo__img" src="{{@blog.logo}}" alt="Logo"></a>
       {{else}}
-      <h1 class="logo"><a href="{{@blog.url}}">{{@blog.title}}</a></h1>
+        <h1 class="logo"><a href="{{@blog.url}}">{{@blog.title}}</a></h1>
       {{/if}}
       <div class="sidebar__description font-tiny">{{@blog.description}}</div>
     </div>
@@ -15,7 +15,7 @@
     <div class="off-canvas-content">
 
       <div class="column large-12">
-        <nav class="sidebar__navigation">
+        <nav class="navigation">
           <ul class="list-bare text-center">
             {{navigation}}
             <li><a class="subscribe-button icon-feed" href="{{@blog.url}}/rss/">RSS</a></li>
@@ -24,17 +24,21 @@
       </div>
 
       <div class="column large-12">
-        <ul class="sidebar__social-nav social-icons">
-          <li>
-            <a href="http://www.twitter.com/{{! Add Twitter handle }}" target="_blank">
-              <span data-icon="ei-sc-twitter" data-size="s"></span>
-            </a>
-          </li>
-          <li>
-            <a href="https://www.facebook.com/{{! Add Facebook handle }}" target="_blank">
-              <span data-icon="ei-sc-facebook" data-size="s"></span>
-            </a>
-          </li>
+        <ul class="social-nav social-icons">
+          {{# if @blog.twitter}}
+            <li>
+              <a href="{{twitter_url}}" target="_blank">
+                <span data-icon="ei-sc-twitter" data-size="s"></span>
+              </a>
+            </li>
+          {{/if}}
+          {{# if @blog.facebook}}
+            <li>
+              <a href="{{facebook_url}}" target="_blank">
+                <span data-icon="ei-sc-facebook" data-size="s"></span>
+              </a>
+            </li>
+          {{/if}}
           <li>
             <a href="https://instagram.com/{{! Add Instagram handle }}" target="_blank">
               <span data-icon="ei-sc-instagram" data-size="s"></span>
@@ -62,9 +66,9 @@
         </div>
       </div>
 
-    </div> {{!-- off-canvas-content --}}
+    </div> {{! off-canvas-content }}
 
-  </div>
-</div>
+  </div> {{! row }}
+</div> {{! sidebar }}
 
 {{> search-form}}

@@ -9,32 +9,23 @@
   font-size: $font-size__tiny;
   line-height: $line-height__medium;
 
-  span {
-    position: relative;
-  }
-
-  .icon {
-    position: relative;
-  }
+  span,
+  .icon { position: relative; }
 
   .newer-posts {
     float: left;
     text-align: left;
 
-    span,
-    .icon {
-      left: -$line-height__medium / 3;
-    }
+    span { left: - half($line-height__base); }
+    .icon { left: -$line-height__medium / 3; }
   }
 
   .older-posts {
     float: right;
     text-align: right;
 
-    span,
-    .icon {
-      right: -$line-height__medium / 3;
-    }
+    span { right: - half($line-height__base); }
+    .icon { right: - $line-height__medium / 3; }
   }
 
   a {
@@ -50,13 +41,22 @@
 .post-navigation {
 
   // Make the post card to grow to full width if there is one post
-  // this will happen if we are in the first post of last post
+  // this will happen if we are in the first post page
 
   flex-grow: 1;
 
-  .post-card {
+  &:last-child .post-card {
     border-bottom: 0;
     margin-bottom: 0;
+    padding-bottom: 0;
+  }
+
+  .post-card {
+    @media #{$medium-up} {
+      border-bottom: 0;
+      margin-bottom: 0;
+      padding-bottom: 0;
+    }
   }
 
   &:before {

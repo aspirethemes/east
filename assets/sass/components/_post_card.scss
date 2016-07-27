@@ -71,8 +71,15 @@
   display: flex;
   flex-wrap: wrap;
 
+  // Safari (iPad)
+  display: -webkit-flex;
+  -webkit-flex-wrap: wrap;
+
   .post-card-wrap {
     display: flex;
+
+    // Safari (iPad)
+    display: -webkit-flex;
   }
 
   .post-card {

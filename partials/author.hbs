@@ -20,18 +20,35 @@
     {{/if}}
 
     <div class="author-meta box__text">
-      {{#if location}}
-      <div class="author-location inline-block">
-        <div data-icon="ei-location" data-size="s"></div>
-        {{location}}
-      </div>
+      {{#if twitter}}
+        <div class="inline-block">
+          <a href="{{ twitter_url }}" target="_blank">
+            <span data-icon="ei-sc-twitter" data-size="s"></span>
+          </a>
+        </div>
+      {{/if}}
+
+      {{#if facebook}}
+        <div class="inline-block">
+          <a href="{{facebook_url}}" target="_blank">
+            <span data-icon="ei-sc-facebook" data-size="s"></span>
+          </a>
+        </div>
       {{/if}}
 
       {{#if website}}
-      <div class="author-link inline-block">
-        <div data-icon="ei-link" data-size="s"></div>
-        <a href="{{website}}">{{website}}</a>
-      </div>
+        <div class="inline-block">
+          <a href="{{website}}">
+            <span data-icon="ei-link" data-size="s"></span>
+          </a>
+        </div>
+      {{/if}}
+
+      {{#if location}}
+        <div class="inline-block">
+          <span data-icon="ei-location" data-size="s"></span>
+          {{location}}
+        </div>
       {{/if}}
     </div>
 

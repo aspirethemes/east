@@ -11,10 +11,10 @@ attributes by default, but you can also customise it to behave differently if yo
   <div class="row row--full">
 
     <div class="column column--center medium-12 large-12">
-      <div class="grey-bg CoverImage FlexEmbed FlexEmbed--2by1" {{#if image}} style="background-image: url({{image}}){{else}}no-cover{{/if}}"></div>
+      <div class="grey-bg CoverImage FlexEmbed FlexEmbed--2by1" {{#if image}} style="background-image: url({{image}}) {{/if}}"></div>
     </div>
 
-    <div class="column column--center medium-12 large-10">
+    <div class="column column--center medium-10 large-10">
       <article class="{{post_class}}">
         <header class="post__header">
           <h2 class="post__title">{{ title }}</h2>
@@ -26,7 +26,7 @@ attributes by default, but you can also customise it to behave differently if yo
       </article>
     </div>
 
-  </div>{{!-- row --}}
-</div>{{!-- wrapper --}}
+  </div> {{! row }}
+</div> {{! wrapper }}
 
 {{/post}}

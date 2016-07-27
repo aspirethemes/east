@@ -12,8 +12,7 @@ textarea {
   margin-bottom: 0;
   display: inline-block;
   border: 1px solid $color__type;
-  margin-bottom: quarter($line-height__base);
-  padding: quarter($line-height__small) half($line-height__small);
+  padding: quarter($line-height__base) half($line-height__base);
 
   font-family: $font__serif;
   font-size: $font-size__small;
@@ -26,11 +25,28 @@ textarea {
   border-radius: 0;
   transition: $base-transition-speed;
 
-  @media #{$large-up} {
-    padding: quarter($line-height__base) half($line-height__base);
-  }
-
   &:focus {
     border: 1px solid $color__type--hover;
+  }
+}
+
+// Subscribe Form
+
+.subscribe-form {
+  @media #{$medium-up} {
+    form {
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    .form-group {
+      flex: 8;
+    }
+
+    .button {
+      flex: 2;
+      position: relative;
+      left: -1px;
+    }
   }
 }
