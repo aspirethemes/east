@@ -2,12 +2,6 @@ $(document).ready(function() {
 
   'use strict';
 
-  // ========================
-  // Prevent FOUC of content
-  // ========================
-
-  $('.no-fouc').removeClass('no-fouc');
-
   // =================
   // Responsive videos
   // =================

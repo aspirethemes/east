@@ -1,0 +1,15 @@
+//---------------------------
+// Fonts
+//---------------------------
+
+@font-face {
+  font-family: 'Born';
+  src: url('/assets/fonts/Born/Born.eot');
+  src: url('/assets/fonts/Born/Born.woff2') format('woff2'),
+       url('/assets/fonts/Born/Born.woff') format('woff'),
+       url('/assets/fonts/Born/Born.ttf') format('truetype'),
+       url('/assets/fonts/Born/Born.svg#Born') format('svg'),
+       url('/assets/fonts/Born/Born.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}

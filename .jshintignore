@@ -1,3 +1,4 @@
-assets/js/scripts/jquery-2.1.4.min.js
-assets/js/scripts/jquery.fitvids.js
+bower_components/jquery/dist/jquery.js
+bower_components/jquery.fitvids/jquery.fitvids.js
+node_modules/evil-icons/assets/evil-icons.min.js
 assets/js/scripts/jquery.ghostHunter.min.js

@@ -10,6 +10,8 @@ body {
   font-family: $font__serif;
   line-height: $line-height__base;
 
+  -webkit-font-smoothing: antialiased;
+   -moz-osx-font-smoothing: grayscale;
 
   @media #{$medium-down} {
     font-size: $font-size__medium;
@@ -45,7 +47,7 @@ h6 {
   p,
   ul,
   ol {
-    font-size: $font-size__medium;
+    font-size: $font-size__base;
     margin-bottom: $line-height__medium;
   }
 

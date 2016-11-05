@@ -69,6 +69,7 @@
 
   li {
     display: inline-block;
+    margin-right: quarter(half($line-height__base));
   }
 
   @media #{$large-down} {

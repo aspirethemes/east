@@ -4,7 +4,7 @@
 
 .logo {
   display: block;
-  margin-bottom: half($line-height__base);
+  margin-bottom: quarter($line-height__base);
 
   @media #{$large-down} {
     margin-bottom: 0;

@@ -13,7 +13,9 @@
       jshint       = require('gulp-jshint'),
       uglify       = require('gulp-uglify'),
       plumber      = require('gulp-plumber'),
-      gutil        = require('gulp-util');
+      gutil        = require('gulp-util'),
+      replace      = require('gulp-replace'),
+      fs           = require('fs');
 
   var onError = function( err ) {
     console.log('An error occurred:', gutil.colors.magenta(err.message));
@@ -32,11 +34,18 @@
     .pipe(gulp.dest('./assets/css'));
   });
 
+  gulp.task('inlinecss', function() {
+    return gulp.src(['partials/inline-css.hbs'])
+    .pipe(replace('@@compiled_css', fs.readFileSync('assets/css/main.min.css')))
+    .pipe(gulp.dest('partials/compiled'));
+  });
+
   // JavaScript
   gulp.task('js', function(){
     return gulp.src([
-      './assets/js/scripts/jquery-2.1.4.min.js',
-      './assets/js/scripts/jquery.fitvids.js',
+      './bower_components/jquery/dist/jquery.js',
+      './node_modules/evil-icons/assets/evil-icons.min.js',
+      './bower_components/fitvids/jquery.fitvids.js',
       './assets/js/scripts/jquery.ghostHunter.min.js',
       './assets/js/scripts/script.js'])
     .pipe(jshint())
@@ -49,13 +58,18 @@
 
   // Watch
   gulp.task('watch', function() {
-    gulp.watch('./assets/sass/**/*.scss', ['sass']);
+    gulp.watch('./assets/sass/**/*.scss', ['build_css']);
     gulp.watch('./assets/js/scripts/**/*.js', ['js']);
+  });
+
+  // Build CSS
+  gulp.task('build_css', [], function() {
+    runSequence('sass', 'inlinecss');
   });
 
   // Build
   gulp.task('build', [], function() {
-    runSequence('sass', 'js');
+    runSequence('build_css', 'js');
   });
 
   // Default
