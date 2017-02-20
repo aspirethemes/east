@@ -3,27 +3,27 @@
 //---------------------------
 
 .box {
-  padding-bottom: $line-height__medium;
-  margin-bottom: $line-height__medium;
+  padding-bottom: $line-height-medium;
+  margin-bottom: $line-height-medium;
   overflow: hidden;
 
-  border-bottom: 1px solid $border-color;
+  border-bottom: 1px solid $color-border;
 
   @media #{$large-up} {
-    padding-bottom: $line-height__base;
-    margin-bottom: $line-height__base;
+    padding-bottom: $line-height-base;
+    margin-bottom: $line-height-base;
   }
 
   &__icon {
     float: left;
-    width: $line-height__base;
-    margin-right: $line-height__base / 3;
+    width: $line-height-base;
+    margin-right: $line-height-base / 3;
   }
 
   &__title {
     margin: 0;
     font-weight: 300;
-    line-height: $line-height__medium;
+    line-height: $line-height-medium;
   }
 
   &__body {
@@ -33,22 +33,22 @@
   }
 
   &__text {
-    margin-top: half($line-height__small);
+    margin-top: half($line-height-small);
     margin-bottom: 0;
 
-    font-size: $font-size__small;
-    line-height: $line-height__small;
+    font-size: $font-size-small;
+    line-height: $line-height-small;
   }
 
   a { text-decoration: none; }
 
   &--author,
   &--news-letter {
-    padding: $line-height__medium;
-    background-color: $grey-bg;
+    padding: $line-height-medium;
+    background-color: $bg-color-gray;
 
     @media #{$large-up} {
-      padding: $line-height__base;
+      padding: $line-height-base;
     }
   }
 }

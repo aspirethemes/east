@@ -6,8 +6,8 @@
 
 .pagination {
   clear: both;
-  font-size: $font-size__tiny;
-  line-height: $line-height__medium;
+  font-size: $font-size-tiny;
+  line-height: $line-height-medium;
 
   span,
   .icon { position: relative; }
@@ -16,16 +16,16 @@
     float: left;
     text-align: left;
 
-    span { left: - half($line-height__base); }
-    .icon { left: -$line-height__medium / 3; }
+    span { left: - half($line-height-base); }
+    .icon { left: -$line-height-medium / 3; }
   }
 
   .older-posts {
     float: right;
     text-align: right;
 
-    span { right: - half($line-height__base); }
-    .icon { right: - $line-height__medium / 3; }
+    span { right: - half($line-height-base); }
+    .icon { right: - $line-height-medium / 3; }
   }
 
   a {
@@ -63,24 +63,24 @@
     position: absolute;
     z-index: 1;
     content: "";
-    top: half($line-height__base);
-    padding: 0 half($line-height__base);
+    top: half($line-height-base);
+    padding: 0 half($line-height-base);
 
-    font-size: $font-size__small;
+    font-size: $font-size-small;
 
-    color: $color__type--hover;
+    color: $color-grey;
     background-color: rgba(255, 255, 255, .9);
 
     transition: $base-transition-speed;
   }
 
   &.prev:before {
-    left: $line-height__base;
+    left: $line-height-base;
     content: "Previous Story";
   }
 
   &.next:before {
-    right: $line-height__base;
+    right: $line-height-base;
     content: "Next Story";
   }
 

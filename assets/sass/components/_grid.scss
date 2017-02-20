@@ -14,8 +14,8 @@ $row-max-width:    1100px !default;
 
 .row {
   margin: 0 auto;
-  padding-left: half($line-height__medium);
-  padding-right: half($line-height__medium);
+  padding-left: half($line-height-medium);
+  padding-right: half($line-height-medium);
   max-width: $row-max-width;
 
   &:before,
@@ -27,18 +27,18 @@ $row-max-width:    1100px !default;
 
   .row {
     padding: 0;
-    margin-right: - half($line-height__medium);
-    margin-left:  - half($line-height__medium);
+    margin-right: - half($line-height-medium);
+    margin-left:  - half($line-height-medium);
 
     @media #{$large-up} {
-      margin-right: - half($line-height__base);
-      margin-left:  - half($line-height__base);
+      margin-right: - half($line-height-base);
+      margin-left:  - half($line-height-base);
     }
   }
 
   @media #{$large-up} {
-    padding-left: half($line-height__base);
-    padding-right: half($line-height__base);
+    padding-left: half($line-height-base);
+    padding-right: half($line-height-base);
   }
 
   &--full {
@@ -49,13 +49,13 @@ $row-max-width:    1100px !default;
 .column {
   position: relative;
   float: left;
-  padding-right: half($line-height__medium);
-  padding-left: half($line-height__medium);
+  padding-right: half($line-height-medium);
+  padding-left: half($line-height-medium);
   width: 100%;
 
   @media #{$large-up} {
-    padding-right: half($line-height__base);
-    padding-left: half($line-height__base);
+    padding-right: half($line-height-base);
+    padding-left: half($line-height-base);
   }
 }
 

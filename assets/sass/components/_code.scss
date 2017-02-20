@@ -4,8 +4,8 @@
 
 pre,
 code {
-  font-family: $font__monospace;
-  background-color: $grey-bg;
+  font-family: $font-monospace;
+  background-color: $bg-color-gray;
 }
 
 // Code block
@@ -13,21 +13,21 @@ code {
 pre {
   overflow: auto;
   margin-top: 0;
-  margin-bottom: $line-height__base;
-  padding: $line-height__base;
+  margin-bottom: $line-height-base;
+  padding: $line-height-base;
 
-  font-size: $font-size__medium;
+  font-size: $font-size-medium;
   white-space: pre-wrap;
   word-wrap: break-word;
 
   @media #{$medium-down} {
-    margin-bottom: $line-height__small;
-    padding: $line-height__medium;
+    margin-bottom: $line-height-small;
+    padding: $line-height-medium;
   }
 }
 
 // Inline code
 
 p code {
-  padding: half(quarter($line-height__medium)) quarter($line-height__medium);
+  padding: half(quarter($line-height-medium)) quarter($line-height-medium);
 }

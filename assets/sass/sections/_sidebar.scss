@@ -4,11 +4,11 @@
 
 .logo {
   display: block;
-  margin-bottom: quarter($line-height__base);
+  margin-bottom: quarter($line-height-base);
 
   @media #{$large-down} {
     margin-bottom: 0;
-    line-height: $line-height__medium;
+    line-height: $line-height-medium;
   }
 
   a {
@@ -16,11 +16,11 @@
     text-decoration: none;
     letter-spacing: 1px;
 
-    &:hover { color: $color__type--hover; }
+    &:hover { color: $color-grey; }
   }
 
   &__img {
-    max-height: $line-height__medium;
+    max-height: $line-height-medium;
     vertical-align: middle;
 
     @media #{$large-up} {
@@ -31,12 +31,12 @@
 
 .sidebar {
   position: relative;
-  padding: half($line-height__medium) 0;
-  line-height: $line-height__medium;
+  padding: half($line-height-medium) 0;
+  line-height: $line-height-medium;
 
   @media #{$large-down} {
-    background-color: #fff;
-    border-bottom: 1px solid $border-color;
+    background-color: $color-white;
+    border-bottom: 1px solid $color-border;
   }
 
   @media #{$large-up} {
@@ -45,17 +45,17 @@
     left: 0;
     width: $sidebar-width;
     height: 100%;
-    background-color: $grey-bg;
-    padding: $line-height__base 0;
+    background-color: $bg-color-gray;
+    padding: $line-height-base 0;
     display: flex;
     align-items: center;
     text-align: center;
   }
 
   &__description {
-    margin-bottom: $line-height__medium;
-    padding-bottom: $line-height__medium;
-    border-bottom: 1px solid $border-color--darker;
+    margin-bottom: $line-height-medium;
+    padding-bottom: $line-height-medium;
+    border-bottom: 1px solid $color-border--darker;
 
     @media #{$large-down} {
       display: none;
@@ -63,10 +63,12 @@
   }
 
   &__bottom {
+    width: 100%;
     text-align: center;
+
     @media #{$large-up} {
       position: absolute;
-      bottom: $line-height__base;
+      bottom: $line-height-base;
     }
   }
 
@@ -74,7 +76,7 @@
 
   @media #{$large-down} {
     .home-template & {
-      border-bottom: 1px solid $border-color;
+      border-bottom: 1px solid $color-border;
     }
   }
 }

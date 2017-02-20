@@ -5,28 +5,28 @@
 .button {
   display: inline-block;
   text-align: center;
-  padding: quarter($line-height__base) half($line-height__base);
-  font-family: $font__serif;
-  font-size: $font-size__tiny;
-  line-height: $line-height__medium;
+  padding: quarter($line-height-base) half($line-height-base);
+  font-family: $font-serif;
+  font-size: $font-size-tiny;
+  line-height: $line-height-medium;
   letter-spacing: 1px;
   border: 0;
   border-radius: 0;
 
   text-decoration: none;
-  color: #fff;
-  background-color: $color__type;
+  color: $color-white;
+  background-color: $color-text;
   transition: $base-transition-speed;
 
   &:active,
   &:focus,
   &:hover {
-    color: #fff;
-    background-color: $color__type--hover;
+    color: $color-white;
+    background-color: $color-grey;
   }
 
   &:visited {
-    color: #fff;
+    color: $color-white;
   }
 
   &--expand {

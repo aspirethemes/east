@@ -3,24 +3,24 @@
 //---------------------------
 
 .post-card {
-  margin-bottom: $line-height__medium;
-  padding-bottom: $line-height__medium;
+  margin-bottom: $line-height-medium;
+  padding-bottom: $line-height-medium;
 
-  border-bottom: 1px solid $border-color;
+  border-bottom: 1px solid $color-border;
   text-align: center;
 
   &__image {
-    margin-bottom: half($line-height__base);
+    margin-bottom: half($line-height-base);
     transition: $base-transition-speed;
 
     @media #{$medium-down} {
-      margin-bottom: half($line-height__medium);
+      margin-bottom: half($line-height-medium);
     }
   }
 
   &__title {
     margin-bottom: 0;
-    line-height: $line-height__medium;
+    line-height: $line-height-medium;
 
     a {
       display: block;
@@ -32,12 +32,12 @@
   }
 
   &__meta {
-    margin-bottom: quarter($line-height__base);
-    font-size: $font-size__tiny;
-    line-height: $line-height__small;
-    color: $color__type--hover;
+    margin-bottom: quarter($line-height-base);
+    font-size: $font-size-tiny;
+    line-height: $line-height-small;
+    color: $color-grey;
 
-    a { color: $color__type--hover; text-decoration: none; }
+    a { color: $color-grey; text-decoration: none; }
   }
 
   &:hover {
@@ -51,15 +51,15 @@
   &--featured {
     &__icon {
       position: absolute;
-      bottom: quarter($line-height__base);
-      left: quarter($line-height__base);
-      fill: #fff;
+      bottom: quarter($line-height-base);
+      left: quarter($line-height-base);
+      fill: $color-white;
     }
   }
 
   @media #{$large-up} {
-    margin-bottom: $line-height__base;
-    padding-bottom: $line-height__base;
+    margin-bottom: $line-height-base;
+    padding-bottom: $line-height-base;
   }
 }
 

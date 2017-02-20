@@ -5,13 +5,13 @@
 // <h4 class='heading'>Heading</h4>
 
 .heading {
-  padding-bottom: half($line-height__medium);
-  margin-bottom: $line-height__base;
+  padding-bottom: half($line-height-medium);
+  margin-bottom: $line-height-base;
 
-  font-size: $font-size__medium;
-  line-height: $line-height__small;
+  font-size: $font-size-medium;
+  line-height: $line-height-small;
   letter-spacing: 1px;
-  border-bottom: 1px solid $border-color;
+  border-bottom: 1px solid $color-border;
 }
 
 // <h5 class="separator">
@@ -19,12 +19,12 @@
 // </h5>
 
 .separator {
-  margin: $line-height__base auto;
+  margin: $line-height-base auto;
   text-align: center;
   text-transform: uppercase;
 
-  font-size: $font-size__small;
-  font-weight: $font-weight__light;
+  font-size: $font-size-small;
+  font-weight: $font-weight-light;
   letter-spacing: 1px;
 
   position: relative;
@@ -35,13 +35,13 @@
     left: 0;
     top: 50%;
     content: "";
-    border-bottom: 1px solid $border-color;
+    border-bottom: 1px solid $color-border;
   }
 
   &__title {
     position: relative;
     z-index: 1;
-    padding: 0px half($line-height__base);
-    background: #FFF none repeat scroll 0% 0%;
+    padding: 0px half($line-height-base);
+    background: $color-white none repeat scroll 0% 0%;
   }
 }

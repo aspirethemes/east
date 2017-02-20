@@ -1,67 +1,61 @@
-<div class="sidebar">
-  <div class="row">
+<div class='sidebar'>
+  <div class='row'>
 
-    <div class="column small-8 large-12">
+    <div class='column small-10 large-12'>
       {{#if @blog.logo}}
-        <a class="logo" href="{{@blog.url}}"><img class="logo__img" src="{{@blog.logo}}" alt="Logo"></a>
+        <a class='logo' href='{{ @blog.url }}'><img class='logo__img' src='{{ @blog.logo }}' alt='{{ @blog.title }}'></a>
       {{else}}
-        <h1 class="logo"><a href="{{@blog.url}}">{{@blog.title}}</a></h1>
+        <h1 class='logo'><a href='{{ @blog.url }}'>{{ @blog.title }}</a></h1>
       {{/if}}
-      <div class="sidebar__description font-small">{{@blog.description}}</div>
+      <div class='sidebar__description font-small'>{{ @blog.description }}</div>
     </div>
 
-    <label class="off-canvas-toggle"><span data-icon="ei-navicon" data-size="s"></span></label>
+    <label class='off-canvas-toggle'><span data-icon='ei-navicon' data-size='s'></span></label>
 
-    <div class="off-canvas-content">
+    <div class='off-canvas-content'>
 
-      <div class="column large-12">
-        <nav class="navigation">
-          <ul class="list-bare text-center">
-            {{navigation}}
-            <li><a class="subscribe-button icon-feed" href="{{@blog.url}}/rss/">RSS</a></li>
+      <div class='column large-12'>
+        <nav class='navigation'>
+          <ul class='list-bare text-center'>
+            {{ navigation }}
+            <li><a class='subscribe-button icon-feed' href='{{ @blog.url }}/rss/'>RSS</a></li>
           </ul>
         </nav>
       </div>
 
-      <div class="column large-12">
-        <ul class="social-nav social-icons">
+      <div class='column large-12'>
+        <ul class='social-nav social-icons'>
           {{# if @blog.twitter}}
             <li>
-              <a href="{{twitter_url}}" target="_blank">
-                <span data-icon="ei-sc-twitter" data-size="s"></span>
+              <a href='{{ twitter_url }}' target='_blank'>
+                <span data-icon='ei-sc-twitter' data-size='s'></span>
               </a>
             </li>
           {{/if}}
           {{# if @blog.facebook}}
             <li>
-              <a href="{{facebook_url}}" target="_blank">
-                <span data-icon="ei-sc-facebook" data-size="s"></span>
+              <a href='{{ facebook_url }}' target='_blank'>
+                <span data-icon='ei-sc-facebook' data-size='s'></span>
               </a>
             </li>
           {{/if}}
           <li>
-            <a href="https://instagram.com/{{! Add Instagram handle }}" target="_blank">
-              <span data-icon="ei-sc-instagram" data-size="s"></span>
+            <a href='https://instagram.com/{{! Add Instagram handle }}' target='_blank'>
+              <span data-icon='ei-sc-instagram' data-size='s'></span>
             </a>
           </li>
           <li>
-            <a class="toggle-search-button" href="#">
-              <span data-icon="ei-search" data-size="s"></span>
+            <a class='toggle-search-button' href='#'>
+              <span data-icon='ei-search' data-size='s'></span>
             </a>
           </li>
         </ul>
       </div>
 
-      <div class="sidebar__bottom">
-        <div class="column large-12">
-          <div class="font-tiny">
-            &copy; {{date format="YYYY"}} {{@blog.title}}
-          </div>
-        </div>
-
-        <div class="column large-12 poweredby">
-          <div class="font-tiny">
-            Powered by <a href="https://ghost.org">Ghost</a>
+      <div class='sidebar__bottom'>
+        <div class='column large-12'>
+          <div class='font-tiny'>
+            &copy; {{ date format='YYYY' }} {{ @blog.title }}
           </div>
         </div>
       </div>

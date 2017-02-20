@@ -2,16 +2,19 @@
 // Colors
 //---------------------------
 
-$color__type: #222222;
-$color__type--hover: #7E7E7E;
-$brand-color: #a60505;
+$brand-color: #207CDF;
+$color-text:  #222222;
+$color-grey:  #7E7E7E;
+$color-white: #FFFFFF;
 
-$body-color: #333;
-$grey-bg: #FAFAFA;
-$border-color: #ECF0F1;
-$border-color--darker: #DADFE1;
+// Background
+$bg-color-gray: #FAFAFA;
 
-$twitter-brand: #55acee;
-$twitter-brand--hover: #1E8BC3;
-$facebook-brand: #3b5998;
-$google-brand: #dc4e41;
+// Border
+$color-border:         #ECF0F1;
+$color-border--darker: #DADFE1;
+
+// Share
+$color-google:   #DC4E41;
+$color-twitter:  #55ACEE;
+$color-facebook: #3B5998;

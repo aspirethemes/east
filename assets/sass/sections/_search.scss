@@ -11,7 +11,7 @@
   z-index: 101;
 
   white-space: nowrap;
-  background: #fff;
+  background: $color-white;
   opacity: 0;
   visibility: hidden;
 
@@ -20,20 +20,20 @@
 
   &__close {
     position: absolute;
-    top: $line-height__base;
-    right: $line-height__base;
+    top: $line-height-base;
+    right: $line-height-base;
     cursor: pointer;
     transition: $base-transition-speed;
-    fill: $color__type;
+    fill: $color-text;
 
     &:hover {
-      fill: $color__type--hover;
+      fill: $color-grey;
       transform: rotate(90deg);
     }
 
     @media #{$medium-down} {
-      top: half($line-height__base);
-      right: half($line-height__base);
+      top: half($line-height-base);
+      right: half($line-height-base);
     }
   }
 
@@ -45,28 +45,28 @@
 }
 
 .search-form {
-  margin-bottom: half($line-height__base);
+  margin-bottom: half($line-height-base);
 
   &__field {
     padding: 0;
     width: 100%;
     outline: none;
 
-    font-weight: $font-weight__regular;
-    font-size: double($font-size__base);
-    line-height: double($line-height__base);
+    font-weight: $font-weight-regular;
+    font-size: double($font-size-base);
+    line-height: double($line-height-base);
 
     border: 0;
-    border-bottom: 1px solid $border-color;
+    border-bottom: 1px solid $color-border;
 
     @media #{$medium-down} {
-      font-size: double($font-size__small);
-      line-height: double($line-height__small);
+      font-size: double($font-size-small);
+      line-height: double($line-height-small);
     }
 
     &:focus {
       border: 0;
-      border-bottom: 1px solid $border-color;
+      border-bottom: 1px solid $color-border;
     }
   }
 
@@ -76,7 +76,7 @@
 
   &__fieldset {
     border: 0;
-    margin-top: double($line-height__base);
+    margin-top: double($line-height-base);
     padding: 0;
   }
 }
@@ -88,28 +88,28 @@
   white-space: normal;
 
   .heading {
-    margin-right: half($line-height__base);
-    margin-bottom: half($line-height__base);
-    color: $color__type--hover;
+    margin-right: half($line-height-base);
+    margin-bottom: half($line-height-base);
+    color: $color-grey;
   }
 
   &__item {
-    margin-bottom: half($line-height__base);
-    margin-right: half($line-height__base);
-    padding-bottom: half($line-height__base);
-    border-bottom: 1px solid $border-color;
+    margin-bottom: half($line-height-base);
+    margin-right: half($line-height-base);
+    padding-bottom: half($line-height-base);
+    border-bottom: 1px solid $color-border;
 
     &__title {
       display: block;
       text-decoration: none;
-      font-size: $font-size__medium;
-      line-height: $line-height__medium;
+      font-size: $font-size-medium;
+      line-height: $line-height-medium;
     }
 
     &__date {
-      font-size: $font-size__tiny;
-      line-height: $line-height__small;
-      color: $color__type--hover;
+      font-size: $font-size-tiny;
+      line-height: $line-height-small;
+      color: $color-grey;
     }
   }
 }

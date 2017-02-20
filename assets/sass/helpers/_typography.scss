@@ -2,9 +2,9 @@
 // Typography
 //---------------------------
 
-.light    { font-weight: $font-weight__light; }
-.regular  { font-weight: $font-weight__regular; }
-.bold     { font-weight: $font-weight__bold; }
+.light    { font-weight: $font-weight-light; }
+.regular  { font-weight: $font-weight-regular; }
+.bold     { font-weight: $font-weight-bold; }
 
 .italic     { font-style: italic; }
 .cap        { text-transform: capitalize; }
@@ -16,19 +16,19 @@
   text-overflow: ellipsis;
 }
 
-.font-base    { font-size: $font-size__base; }
+.font-base    { font-size: $font-size-base; }
 
 .font-medium  {
-  font-size: $font-size__medium;
-  line-height: $line-height__medium;
+  font-size: $font-size-medium;
+  line-height: $line-height-medium;
 }
 
 .font-small {
-  font-size: $font-size__small;
-  line-height: $line-height__small;
+  font-size: $font-size-small;
+  line-height: $line-height-small;
 }
 
 .font-tiny {
-  font-size: $font-size__tiny;
-  line-height: $line-height__tiny;
+  font-size: $font-size-tiny;
+  line-height: $line-height-tiny;
 }

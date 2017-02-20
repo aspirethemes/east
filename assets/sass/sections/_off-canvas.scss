@@ -11,9 +11,9 @@
     display: block;
     position: absolute;
     top: 50%;
-    right: $line-height__small;
+    right: $line-height-small;
     transform: translateY(-50%);
-    font-size: $font-size__small;
+    font-size: $font-size-small;
     cursor: pointer;
   }
 }
@@ -34,18 +34,18 @@
     width: $sidebar-width;
     height: 100%;
 
-    background-color: #fff;
-    border-left: 1px solid $border-color;
-    transform: translate3d(0px, 0px, 0px) translateX($sidebar-width);
-    transition: all $base-transition-speed cubic-bezier(0.16, 0.63, 0.45, 0.98) 0s;
+    background-color: $color-white;
+    border-left: 1px solid $color-border;
+    transform: translate3d(0, 0, 0) translateX($sidebar-width);
+    transition: all $base-transition-speed cubic-bezier(.16, .63, .45, .98) 0s;
   }
 
   .off-canvas-container {
     transform: translate3d(0, 0, 0) translateX(0);
-    transition: all $base-transition-speed cubic-bezier(0.16, 0.63, 0.45, 0.98) 0s;
+    transition: all $base-transition-speed cubic-bezier(.16, .63, .45, .98) 0s;
 
     &.is-active {
-      transform: translate3d(0px, 0px, 0px) translateX(-$sidebar-width);
+      transform: translate3d(0, 0, 0) translateX(-$sidebar-width);
     }
   }
 }

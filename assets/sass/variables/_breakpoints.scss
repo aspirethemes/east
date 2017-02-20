@@ -4,8 +4,8 @@
 
 // @media #{$medium-down} {  }
 
-$screen: "only screen" !default;
-$medium-up: "#{$screen} and (min-width: 40.063em)";
-$medium-down: "#{$screen} and (max-width: 40em)";
-$large-up: "#{$screen} and (min-width: 64.063em)";
-$large-down: "#{$screen} and (max-width: 64em)";
+$screen:      "only screen"                 !default;
+$medium-up:   "#{$screen} and (min-width: 40.063em)";
+$medium-down: "#{$screen} and     (max-width: 40em)";
+$large-up:    "#{$screen} and (min-width: 64.063em)";
+$large-down:  "#{$screen} and     (max-width: 64em)";

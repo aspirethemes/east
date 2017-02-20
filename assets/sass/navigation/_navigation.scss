@@ -4,33 +4,33 @@
 
 .navigation {
   @media #{$large-up} {
-    margin-bottom: $line-height__medium;
-    padding-bottom: $line-height__medium;
-    border-bottom: 1px solid $border-color--darker;
+    margin-bottom: $line-height-medium;
+    padding-bottom: $line-height-medium;
+    border-bottom: 1px solid $color-border--darker;
   }
 
   li {
     display: block;
-    margin-bottom: quarter($line-height__base);
+    margin-bottom: quarter($line-height-base);
 
-    font-size: $font-size__small;
-    line-height: $line-height__medium;
+    font-size: $font-size-small;
+    line-height: $line-height-medium;
 
     &:last-child {
       margin-bottom: 0;
     }
 
     &.nav-current {
-      a { color: $color__type--hover; }
+      a { color: $color-grey; }
 
-      .home-template & a:not(:hover) { color: $color__type; }
+      .home-template & a:not(:hover) { color: $color-text; }
     }
 
     @media #{$large-down} {
       display: block;
       text-align: center;
       margin-right: 0;
-      line-height: $line-height__base;
+      line-height: $line-height-base;
     }
   }
 
@@ -40,36 +40,36 @@
 
     @media #{$large-down} {
       display: block;
-      padding-top: quarter($line-height__base);
-      padding-bottom: quarter($line-height__base);
-      border-bottom: 1px solid $border-color;
+      padding-top: quarter($line-height-base);
+      padding-bottom: quarter($line-height-base);
+      border-bottom: 1px solid $color-border;
     }
   }
 
   @media #{$large-down} {
-    margin-bottom: quarter($line-height__base);
+    margin-bottom: quarter($line-height-base);
   }
 }
 
 .social-nav {
-  margin-bottom: $line-height__medium;
+  margin-bottom: $line-height-medium;
   list-style: none;
   padding: 0;
 
   .icon {
     vertical-align: -moz-middle-with-baseline;
     vertical-align: -webkit-baseline-middle;
-    fill: $color__type;
+    fill: $color-text;
     transition: $base-transition-speed;
 
     &:hover {
-      fill: $color__type--hover;
+      fill: $color-grey;
     }
   }
 
   li {
     display: inline-block;
-    margin-right: quarter(half($line-height__base));
+    margin-right: quarter(half($line-height-base));
   }
 
   @media #{$large-down} {

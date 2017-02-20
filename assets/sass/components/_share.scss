@@ -5,40 +5,40 @@
 .share-list {
   display: flex;
   padding: 0;
-  border: 1px solid $border-color;
-  margin-bottom: $line-height__base;
+  border: 1px solid $color-border;
+  margin-bottom: $line-height-base;
 
-  line-height: $line-height__small;
+  line-height: $line-height-small;
   list-style: none;
 
   li {
     flex: 1;
     text-align: center;
     margin: 0;
-    border-right: 1px solid $border-color;
+    border-right: 1px solid $color-border;
 
     &:last-child { border-right: 0; }
   }
 
   &__link {
     display: block;
-    padding: quarter($line-height__base);
+    padding: quarter($line-height-base);
 
-    font-size: $font-size__small;
+    font-size: $font-size-small;
     transition: $base-transition-speed;
 
     &:hover {
-      background-color: $grey-bg;
+      background-color: $bg-color-gray;
 
-      .share-list__icon--twitter  { fill: $twitter-brand; }
-      .share-list__icon--facebook { fill: $facebook-brand; }
-      .share-list__icon--google   { fill: $google-brand; }
+      .share-list__icon--twitter  { fill: $color-twitter; }
+      .share-list__icon--facebook { fill: $color-facebook; }
+      .share-list__icon--google   { fill: $color-google; }
     }
   }
 
-  &__icon { fill: $color__type--hover; }
+  &__icon { fill: $color-grey; }
 
   @media #{$medium-down} {
-    margin-bottom: $line-height__medium;
+    margin-bottom: $line-height-medium;
   }
 }

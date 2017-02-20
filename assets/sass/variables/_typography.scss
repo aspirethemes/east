@@ -2,19 +2,19 @@
 // Units
 //---------------------------
 
-$font__serif: Born, Georgia, serif;
-$font__monospace: Courier, monospace;
+$font-serif:      Born, Georgia, serif;
+$font-monospace:  Courier, monospace;
 
-$font-size__base: 19px;
-$font-size__medium: 16px;
-$font-size__small: 14px;
-$font-size__tiny: 12px;
+$font-size-base:   19px;
+$font-size-medium: 16px;
+$font-size-small:  14px;
+$font-size-tiny:   12px;
 
-$font-weight__light: 300;
-$font-weight__regular: 400;
-$font-weight__bold: 700;
+$font-weight-light:   300;
+$font-weight-regular: 400;
+$font-weight-bold:    700;
 
-$line-height__base: round($font-size__base * 1.7);
-$line-height__medium: round($font-size__medium * 1.55);
-$line-height__small: round($font-size__small * 1.55);
-$line-height__tiny: round($font-size__tiny * 1.55);
+$line-height-base:   round($font-size-base    *  1.7);
+$line-height-medium: round($font-size-medium  * 1.55);
+$line-height-small:  round($font-size-small   * 1.55);
+$line-height-tiny:   round($font-size-tiny    * 1.55);

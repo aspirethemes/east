@@ -3,19 +3,19 @@
 //---------------------------
 
 .post__tags {
-  margin-bottom: $line-height__base - half(quarter($line-height__base));
-  font-size: $font-size__small;
+  margin-bottom: $line-height-base - half(quarter($line-height-base));
+  font-size: $font-size-small;
 
   a {
-    padding: half(quarter($line-height__small)) half($line-height__small);
-    margin: half(quarter($line-height__base)) quarter($line-height__base) half(quarter($line-height__base)) 0;
+    padding: half(quarter($line-height-small)) half($line-height-small);
+    margin: half(quarter($line-height-base)) quarter($line-height-base) half(quarter($line-height-base)) 0;
     display: inline-block;
 
-    font-size: $font-size__tiny;
-    line-height: $line-height__small;
+    font-size: $font-size-tiny;
+    line-height: $line-height-small;
 
-    color: $color__type--hover;
-    border: 1px solid $border-color;
+    color: $color-grey;
+    border: 1px solid $color-border;
     text-decoration: none;
     transition: $base-transition-speed;
 
@@ -25,8 +25,8 @@
     }
 
     &:hover {
-      color: $color__type;
-      border-color: $color__type;
+      color: $color-text;
+      border-color: $color-text;
     }
   }
 }

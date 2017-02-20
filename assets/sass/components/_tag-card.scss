@@ -1,0 +1,42 @@
+//---------------------------
+// Tag Card
+//---------------------------
+
+.tag-card {
+  margin-bottom: $line-height-base;
+  background-color: $bg-color-gray;
+
+  &__image {
+    background-color: $bg-color-gray;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-decoration: none;
+
+    &:after {
+      transition: $base-transition-speed;
+      position: absolute;
+      top: 0;
+      height: 100%;
+      width: 100%;
+      content: '';
+      background-color: #000;
+      opacity: .1;
+    }
+  }
+
+  &__title {
+    position: relative;
+    z-index: 1;
+    margin: 0;
+    padding: half($line-height-base);
+    font-weight: $font-weight-bold;
+    color: $color-white;
+  }
+
+  &:hover {
+    .tag-card__image:after {
+      opacity: .2;
+    }
+  }
+}

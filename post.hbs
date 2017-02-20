@@ -1,28 +1,28 @@
 {{!< default}}
 
-{{! The comment above "< default" means - insert everything in this file into
+{{! The comment above '< default' means - insert everything in this file into
 the {body} of the default.hbs template, which contains our header/footer. }}
 
 {{! Everything inside the #post tags pulls data from the post }}
 {{#post}}
-<div class="wrapper">
-  <div class="row row--full">
+<div class='wrapper'>
+  <div class='row row--full'>
 
-    <div class="column column--center medium-12 large-12">
-      <div class="grey-bg CoverImage FlexEmbed FlexEmbed--16by9" {{#if image}} style="background-image: url({{image}}) {{/if}}"></div>
+    <div class='column column--center medium-12 large-12'>
+      <div class='grey-bg CoverImage FlexEmbed FlexEmbed--16by9' {{#if image}} style='background-image: url({{ image }}) {{/if}}'></div>
     </div>
 
-    <div class="column column--center medium-10 large-10">
-      <article class="{{post_class}}">
-        <header class="post__header">
-          <h2 class="post__title">{{ title }}</h2>
-          <time class="post__date" datetime="{{date format="YYYY-MM-DD"}}">{{date format="DD MMMM YYYY"}}</time>
+    <div class='column column--center medium-10 large-10'>
+      <article class='{{ post_class }}'>
+        <header class='post__header'>
+          <h2 class='post__title'>{{ title }}</h2>
+          <time class='post__date' datetime='{{ date format='YYYY-MM-DD' }}'>{{ date format='DD MMMM YYYY' }}</time>
         </header>
 
-        <div class="post-content">
+        <div class='post-content'>
           {{ content }}
-          <div class="post__tags">
-            {{tags separator=""}}
+          <div class='post__tags'>
+            {{tags separator=''}}
           </div>
         </div>
 

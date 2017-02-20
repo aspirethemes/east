@@ -4,45 +4,45 @@
 
 .post {
   position: relative;
-  padding: $line-height__tiny;
+  padding: $line-height-tiny;
   margin: 0 auto;
   max-width: 45em;
-  background: #fff;
+  background: $color-white;
 
   @media #{$medium-up} {
-    top: - double($line-height__medium);
-    padding: double($line-height__medium);
+    top: - double($line-height-medium);
+    padding: double($line-height-medium);
   }
 
   @media #{$large-up} {
-    top: - double($line-height__base);
-    padding: double($line-height__base);
+    top: - double($line-height-base);
+    padding: double($line-height-base);
   }
 
   &__header {
-    margin-bottom: half($line-height__medium);
+    margin-bottom: half($line-height-medium);
     text-align: center;
   }
 
   &__title {
-    margin-bottom: half($line-height__medium);
-    font-size: $font-size__base;
-    line-height: $line-height__base;
+    margin-bottom: half($line-height-medium);
+    font-size: $font-size-base;
+    line-height: $line-height-base;
 
     @media #{$medium-up} {
-      font-size: double($font-size__medium);
-      line-height: double($line-height__medium);
+      font-size: double($font-size-medium);
+      line-height: double($line-height-medium);
     }
   }
 
   &__date {
-    font-size: $font-size__small;
-    line-height: $line-height__small;
+    font-size: $font-size-small;
+    line-height: $line-height-small;
 
-    color: $color__type--hover;
+    color: $color-grey;
   }
 
   &-content {
-    margin-top: $line-height__medium;
+    margin-top: $line-height-medium;
   }
 }

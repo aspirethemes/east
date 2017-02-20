@@ -11,12 +11,12 @@ textarea {
   max-width: 100%;
   margin-bottom: 0;
   display: inline-block;
-  border: 1px solid $color__type;
-  padding: quarter($line-height__base) half($line-height__base);
+  border: 1px solid $color-text;
+  padding: quarter($line-height-base) half($line-height-base);
 
-  font-family: $font__serif;
-  font-size: $font-size__small;
-  line-height: $line-height__medium;
+  font-family: $font-serif;
+  font-size: $font-size-small;
+  line-height: $line-height-medium;
   letter-spacing: 1px;
 
   outline: none;
@@ -26,7 +26,7 @@ textarea {
   transition: $base-transition-speed;
 
   &:focus {
-    border: 1px solid $color__type--hover;
+    border: 1px solid $color-grey;
   }
 }
 

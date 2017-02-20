@@ -9,10 +9,10 @@
 }
 
 .wrapper {
-  padding: $line-height__medium 0;
+  padding: $line-height-medium 0;
 
   @media #{$large-up} {
-    padding: $line-height__base 0;
+    padding: $line-height-base 0;
     margin-left: $sidebar-width;
   }
 }
