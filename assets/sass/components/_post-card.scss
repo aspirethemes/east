@@ -27,7 +27,7 @@
       border-bottom: none;
       transition: $base-transition-speed;
 
-      &:hover { color: $brand-color; }
+      &:hover { color: $color-brand; }
     }
   }
 
@@ -45,7 +45,7 @@
       opacity: 0.9;
     }
 
-    .post-card__title a { color: $brand-color; }
+    .post-card__title a { color: $color-brand; }
   }
 
   &--featured {
