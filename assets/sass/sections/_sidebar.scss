@@ -68,6 +68,7 @@
 
     @media #{$large-up} {
       position: absolute;
+      left: 0;
       bottom: $line-height-base;
     }
   }

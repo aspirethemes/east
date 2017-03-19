@@ -1,6 +1,6 @@
 {
   "name": "East",
-  "version": "1.1.7",
+  "version": "1.1.8",
   "description": "Blog and Multi Purpose Clean Ghost Theme",
   "scripts": {
     "postinstall": "bower install"
