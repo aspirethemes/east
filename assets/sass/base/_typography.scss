@@ -29,10 +29,7 @@ h6 {
   font-size: $font-size-base;
   font-weight: $font-weight-light;
   margin: 0 0 $line-height-medium;
-
-  @media #{$medium-down} {
-    font-size: $font-size-medium;
-  }
+  line-height: initial;
 
   a { text-decoration: none; }
 }
