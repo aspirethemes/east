@@ -3,20 +3,20 @@
 {{#author}}
 <div class='box box--author'>
 
-  {{#if image}}
-  <figure class='author-image'>
-    <div class='img' style='background-image: url({{image}})'><span class='hidden'>{{name}}'s Picture</span></div>
-  </figure>
+  {{#if profile_image}}
+    <figure class='author-image'>
+      <div class='img' style='background-image: url({{ profile_image }})'><span class='hidden'>{{ name }}'s Picture</span></div>
+    </figure>
   {{/if}}
 
   <div class='box__body'>
 
     <h4 class='box__title'>
-      <a href='{{url}}'>{{name}}</a>
+      <a href='{{ url }}'>{{ name }}</a>
     </h4>
 
     {{#if bio}}
-    <p class='box__text'>{{bio}}</p>
+      <p class='box__text'>{{ bio }}</p>
     {{/if}}
 
     <div class='author-meta box__text'>
@@ -30,7 +30,7 @@
 
       {{#if facebook}}
         <div class='inline-block'>
-          <a href='{{facebook_url}}' target='_blank'>
+          <a href='{{ facebook_url }}' target='_blank'>
             <span data-icon='ei-sc-facebook' data-size='s'></span>
           </a>
         </div>
@@ -38,7 +38,7 @@
 
       {{#if website}}
         <div class='inline-block'>
-          <a href='{{website}}'>
+          <a href='{{ website }}'>
             <span data-icon='ei-link' data-size='s'></span>
           </a>
         </div>
@@ -47,7 +47,7 @@
       {{#if location}}
         <div class='inline-block'>
           <span data-icon='ei-location' data-size='s'></span>
-          {{location}}
+          {{ location }}
         </div>
       {{/if}}
     </div>

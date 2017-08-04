@@ -3,29 +3,24 @@
 <head>
   <meta charset='utf-8'>
   <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-  <meta name='description' content='{{meta_description}}'>
-  <meta name='viewport' content='width=device-width, initial-scale=1.0'>
-  <title>{{meta_title}}</title>
 
-  <link rel='shortcut icon' href='{{asset '/favicon.ico'}}'>
+  <title>{{ meta_title }}</title>
+  <meta name='viewport' content='width=device-width, initial-scale=1.0'>
 
   {{> compiled/inline-css }}
 
-  {{! Ghost outputs important style and meta data with this tag }}
-  {{ghost_head}}
+  {{ ghost_head }}
 </head>
-<body class='{{body_class}}'>
+<body class='{{ body_class }}'>
 
   <div class='off-canvas-container'>
     {{> sidebar}}
 
-    {{{body}}}
+    {{{ body }}}
 
-    {{ghost_foot}}
+    {{ ghost_foot }}
   </div>
 
-  {{! The main JavaScript file }}
-  <script src='{{asset 'js/app.min.js'}}'></script>
-
+  <script src='{{ asset 'js/app.min.js' }}'></script>
 </body>
 </html>
