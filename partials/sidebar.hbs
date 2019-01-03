@@ -52,10 +52,10 @@
         </ul>
       </div>
 
-      <div class='sidebar__bottom'>
+      <div class='sidebar__copy'>
         <div class='column large-12'>
           <div class='font-tiny'>
-            &copy; {{ date format='YYYY' }} {{ @blog.title }}
+            &copy; {{ date format='YYYY' }} {{ @blog.title }} - {{{t "Published with {ghostlink}" ghostlink="<a class='color-grey' href=\"https://ghost.org\">Ghost</a>" }}}
           </div>
         </div>
       </div>

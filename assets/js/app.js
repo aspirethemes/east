@@ -2,11 +2,30 @@ $(document).ready(function() {
 
   'use strict';
 
+  // =====================
+  // Koenig Gallery
+  // =====================
+  var gallery_images = document.querySelectorAll('.kg-gallery-image img');
+
+  gallery_images.forEach(function (image) {
+    var container = image.closest('.kg-gallery-image');
+    var width = image.attributes.width.value;
+    var height = image.attributes.height.value;
+    var ratio = width / height;
+    container.style.flex = ratio + ' 1 0%';
+  });
+
   // =================
   // Responsive videos
   // =================
 
-  $('.wrapper').fitVids();
+  $('.wrapper').fitVids({
+    'customSelector': [ 'iframe[src*="ted.com"]'          ,
+                        'iframe[src*="player.twitch.tv"]' ,
+                        'iframe[src*="dailymotion.com"]'  ,
+                        'iframe[src*="facebook.com"]'
+                      ]
+  });
 
   // ===============
   // Off Canvas menu
@@ -27,7 +46,7 @@ $(document).ready(function() {
       search_result_template = "\
         <div class='search-results__item'>\
           <a class='search-results__item__title' href='{{link}}'>{{title}}</a>\
-          <span class='post__date'>{{pubDate}}</span>\
+          <span class='search-results__item__date'>{{pubDate}}</span>\
         </div>";
 
   toggle_search.click(function(e) {
@@ -51,9 +70,9 @@ $(document).ready(function() {
   search_field.ghostHunter({
     results: search_results,
     onKeyUp         : true,
-    info_template   : "<h4 class='heading'>Number of results found: {{amount}}</h4>",
     result_template : search_result_template,
     zeroResultsInfo : false,
+    displaySearchInfo: false,
     includepages 	: true,
     before: function() {
       search_results.fadeIn();

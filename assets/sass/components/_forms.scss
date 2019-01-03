@@ -13,11 +13,9 @@ textarea {
   display: inline-block;
   border: 1px solid $color-text;
   padding: quarter($line-height-base) half($line-height-base);
-
-  font-family: $font-serif;
   font-size: $font-size-small;
   line-height: $line-height-medium;
-  letter-spacing: 1px;
+  letter-spacing: $base-letter-spacing;
 
   outline: none;
   background: transparent;

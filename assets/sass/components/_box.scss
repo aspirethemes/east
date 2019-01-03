@@ -6,7 +6,6 @@
   padding-bottom: $line-height-medium;
   margin-bottom: $line-height-medium;
   overflow: hidden;
-
   border-bottom: 1px solid $color-border;
 
   @media #{$large-up} {
@@ -22,7 +21,7 @@
 
   &__title {
     margin: 0;
-    font-weight: 300;
+    font-weight: $font-weight-regular;
     line-height: $line-height-medium;
   }
 
@@ -33,7 +32,7 @@
   }
 
   &__text {
-    margin-top: half($line-height-small);
+    margin-top: quarter($line-height-medium);
     margin-bottom: 0;
 
     font-size: $font-size-small;
@@ -48,7 +47,7 @@
     background-color: $bg-color-gray;
 
     @media #{$large-up} {
-      padding: $line-height-base;
+      padding: double($line-height-medium);
     }
   }
 }

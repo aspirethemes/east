@@ -5,6 +5,7 @@
 .logo {
   display: block;
   margin-bottom: quarter($line-height-base);
+  font-weight: $font-weight-bold;
 
   @media #{$large-down} {
     margin-bottom: 0;
@@ -14,7 +15,7 @@
   a {
     transition: $base-transition-speed;
     text-decoration: none;
-    letter-spacing: 1px;
+    letter-spacing: $base-letter-spacing;
 
     &:hover { color: $color-grey; }
   }
@@ -55,16 +56,22 @@
   &__description {
     margin-bottom: $line-height-medium;
     padding-bottom: $line-height-medium;
-    border-bottom: 1px solid $color-border--darker;
+    border-bottom: 1px solid $color-border;
 
     @media #{$large-down} {
       display: none;
     }
   }
 
-  &__bottom {
+  &__copy {
     width: 100%;
     text-align: center;
+    color: $color-grey;
+
+    a {
+      color: $color-grey;
+      text-decoration: none;
+    }
 
     @media #{$large-up} {
       position: absolute;

@@ -6,10 +6,10 @@
   display: inline-block;
   text-align: center;
   padding: quarter($line-height-base) half($line-height-base);
-  font-family: $font-serif;
   font-size: $font-size-tiny;
+  font-family: $font-sans-serif;
   line-height: $line-height-medium;
-  letter-spacing: 1px;
+  letter-spacing: $base-letter-spacing;
   border: 0;
   border-radius: 0;
 

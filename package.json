@@ -1,6 +1,9 @@
 {
   "name": "east",
-  "version": "1.2.1",
+  "version": "1.2.2",
+  "keywords": [
+    "ghost-theme"
+  ],
   "description": "Blog and Multi Purpose Clean Ghost Theme",
   "scripts": {
     "postinstall": "bower install"
@@ -8,20 +11,21 @@
   "dependencies": {
     "concat": "^2.0.0",
     "evil-icons": "^1.9.0",
-    "gulp": "^3.9.0",
     "gulp-autoprefixer": "^4.0.0",
     "gulp-concat": "^2.6.1",
     "gulp-jshint": "^2.0.4",
     "gulp-minify-css": "^1.2.4",
     "gulp-plumber": "^1.0.1",
     "gulp-rename": "^1.2.2",
+    "gulp-replace": "^0.6.1",
     "gulp-sass": "^3.1.0",
     "gulp-uglify": "^3.0.0",
     "gulp-util": "^3.0.8",
-    "jshint": "^2.9.5",
+    "jshint": "^2.9.7",
     "jshint-stylish": "^2.2.1",
-    "run-sequence": "^2.1.0",
-    "gulp-replace": "^0.6.1"
+    "lunr": "^0.7.0",
+    "lunr-languages": "^1.0.0",
+    "prismjs": "^1.15.0"
   },
   "author": {
     "name": "Aspire Themes",
@@ -30,5 +34,9 @@
   },
   "config": {
     "posts_per_page": 12
+  },
+  "devDependencies": {
+    "dart-sass": "^1.15.2",
+    "gulp": "^4.0.0"
   }
 }

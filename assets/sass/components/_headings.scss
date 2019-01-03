@@ -10,7 +10,7 @@
 
   font-size: $font-size-medium;
   line-height: $line-height-small;
-  letter-spacing: 1px;
+  letter-spacing: $base-letter-spacing;
   border-bottom: 1px solid $color-border;
 }
 
@@ -24,8 +24,8 @@
   text-transform: uppercase;
 
   font-size: $font-size-small;
-  font-weight: $font-weight-light;
-  letter-spacing: 1px;
+  font-weight: $font-weight-regular;
+  letter-spacing: $base-letter-spacing;
 
   position: relative;
 

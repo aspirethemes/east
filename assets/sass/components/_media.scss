@@ -17,10 +17,10 @@ img {
   iframe,
   .fluid-width-video-wrapper,
   .twitter-tweet {
-    margin-bottom: $line-height-medium !important;
+    // margin-bottom: $line-height-medium !important;
 
     @media #{$medium-down} {
-      margin-bottom: $line-height-small;
+      // margin-bottom: $line-height-small;
     }
   }
   p img { margin-bottom: 0; }

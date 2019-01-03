@@ -31,7 +31,7 @@
   a {
     text-decoration: none;
     text-transform: uppercase;
-    letter-spacing: .2em;
+    letter-spacing: $base-letter-spacing;
     transition: $base-transition-speed;
   }
 }
@@ -57,31 +57,6 @@
       margin-bottom: 0;
       padding-bottom: 0;
     }
-  }
-
-  &:before {
-    position: absolute;
-    z-index: 1;
-    content: "";
-    top: half($line-height-base);
-    padding: 0 half($line-height-base);
-
-    font-size: $font-size-small;
-
-    color: $color-grey;
-    background-color: rgba(255, 255, 255, .9);
-
-    transition: $base-transition-speed;
-  }
-
-  &.prev:before {
-    left: $line-height-base;
-    content: "Previous Story";
-  }
-
-  &.next:before {
-    right: $line-height-base;
-    content: "Next Story";
   }
 
   &:hover {

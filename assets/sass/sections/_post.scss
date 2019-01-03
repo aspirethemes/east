@@ -4,7 +4,7 @@
 
 .post {
   position: relative;
-  padding: $line-height-tiny;
+  padding: $line-height-tiny 0;
   margin: 0 auto;
   max-width: 45em;
   background: $color-white;
@@ -25,24 +25,148 @@
   }
 
   &__title {
+    font-weight: $font-weight-bold;
+    font-size: double($font-size-small);
     margin-bottom: half($line-height-medium);
-    font-size: $font-size-base;
-    line-height: $line-height-base;
 
     @media #{$medium-up} {
       font-size: double($font-size-medium);
-      line-height: double($line-height-medium);
     }
   }
 
-  &__date {
+  &__meta {
     font-size: $font-size-small;
     line-height: $line-height-small;
-
+    font-family: $font-sans-serif;
     color: $color-grey;
   }
 
   &-content {
     margin-top: $line-height-medium;
   }
+}
+
+// Koenig Editor
+
+.kg-embed-card {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  min-width: 100%;
+}
+
+.kg-embed-card,
+.kg-image-card,
+.kg-gallery-card, {
+  figcaption {
+    width: 100%;
+    text-align: center;
+    color: $color-grey;
+    font-size: $font-size-small;
+    margin-top: half($line-height-medium) + half(quarter($line-height-medium));
+  }
+}
+
+// // Koenig Images
+
+.post-content {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-family: $font-serif;
+
+  address,
+  h1, h2, h3, h4, h5, h6,
+  p, pre,
+  dl, ol, ul,
+  hr,
+  form,
+  table,
+  fieldset,
+  .footnotes,
+  .cp_embed_wrapper {
+    min-width: 100%;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5 {
+    font-family: $font-sans-serif;
+    margin-bottom: half($line-height-medium);
+
+    @media #{$large-up} {
+      &:not(:first-child) {
+        margin-top: double($line-height-medium);
+      }
+    }
+  }
+
+  figure {
+    margin: 0;
+    padding: 0;
+    margin-bottom: $line-height-medium;
+  }
+
+  .kg-width-full .kg-image {
+    max-width: 100vw;
+
+    @media #{$large-up} {
+      max-width: calc(100vw - #{$sidebar-width});
+      padding-right: $line-height-base;
+      padding-left: $line-height-base;
+    }
+  }
+
+  .kg-width-wide .kg-image {
+    @media #{$medium-up} {
+      max-width: 75vw;
+    }
+
+    @media #{$large-up} {
+      max-width: calc(80vw - #{$sidebar-width});
+      padding-right: $line-height-base;
+      padding-left: $line-height-base;
+    }
+  }
+}
+
+// // Koenig Gallery
+
+.kg-gallery-container {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+
+  @media #{$medium-up} {
+    max-width: 75vw;
+  }
+
+  @media #{$large-up} {
+    max-width: calc(80vw - #{$sidebar-width});
+    padding-right: $line-height-base;
+    padding-left: $line-height-base;
+  }
+}
+
+.kg-gallery-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.kg-gallery-image img {
+  display: block;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.kg-gallery-row:not(:first-of-type) {
+  margin: half($line-height-medium) 0 0 0;
+}
+
+.kg-gallery-image:not(:first-of-type) {
+  margin: 0 0 0 half($line-height-medium);
 }

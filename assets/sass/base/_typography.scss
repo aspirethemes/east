@@ -6,17 +6,11 @@ body {
   color: $color-text;
   background-color: $color-white;
   font-size: $font-size-base;
-  font-weight: $font-weight-light;
-  font-family: $font-serif;
+  font-family: $font-sans-serif;
   line-height: $line-height-base;
 
   -webkit-font-smoothing: antialiased;
    -moz-osx-font-smoothing: grayscale;
-
-  @media #{$medium-down} {
-    font-size: $font-size-medium;
-    line-height: $line-height-medium;
-  }
 }
 
 h1,
@@ -25,9 +19,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: $font-serif;
   font-size: $font-size-base;
-  font-weight: $font-weight-light;
   margin: 0 0 $line-height-medium;
   line-height: initial;
 

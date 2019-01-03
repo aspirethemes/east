@@ -28,6 +28,21 @@ pre {
 
 // Inline code
 
-p code {
+p code,
+li code {
   padding: half(quarter($line-height-medium)) quarter($line-height-medium);
+}
+
+// Prism.js Customization
+
+pre[class*='language-'] {
+  padding: $line-height-base;
+  margin-bottom: $line-height-base;
+}
+
+code[class*='language-'],
+pre[class*='language-'] {
+  white-space: pre-wrap;
+  word-break: break-all;
+  background-color: $bg-color-gray;
 }

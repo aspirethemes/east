@@ -3,14 +3,15 @@
 //---------------------------
 
 .post__tags {
-  margin-bottom: $line-height-base - half(quarter($line-height-base));
+  min-width: 100%;
   font-size: $font-size-small;
+  margin-bottom: $line-height-base - half(quarter($line-height-base));
 
   a {
     padding: half(quarter($line-height-small)) half($line-height-small);
     margin: half(quarter($line-height-base)) quarter($line-height-base) half(quarter($line-height-base)) 0;
     display: inline-block;
-
+    font-family: $font-sans-serif;
     font-size: $font-size-tiny;
     line-height: $line-height-small;
 

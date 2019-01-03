@@ -87,12 +87,6 @@
   overflow: auto;
   white-space: normal;
 
-  .heading {
-    margin-right: half($line-height-base);
-    margin-bottom: half($line-height-base);
-    color: $color-grey;
-  }
-
   &__item {
     margin-bottom: half($line-height-base);
     margin-right: half($line-height-base);

@@ -6,13 +6,13 @@
   @media #{$large-up} {
     margin-bottom: $line-height-medium;
     padding-bottom: $line-height-medium;
-    border-bottom: 1px solid $color-border--darker;
+    border-bottom: 1px solid $color-border;
   }
 
   li {
     display: block;
     margin-bottom: quarter($line-height-base);
-
+    letter-spacing: $base-letter-spacing;
     font-size: $font-size-small;
     line-height: $line-height-medium;
 
