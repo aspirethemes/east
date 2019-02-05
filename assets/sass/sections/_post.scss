@@ -63,7 +63,8 @@
     text-align: center;
     color: $color-grey;
     font-size: $font-size-small;
-    margin-top: half($line-height-medium) + half(quarter($line-height-medium));
+    font-family: $font-sans-serif;
+    margin-top: quarter($line-height-base);
   }
 }
 

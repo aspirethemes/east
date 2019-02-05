@@ -6,6 +6,7 @@ body {
   color: $color-text;
   background-color: $color-white;
   font-size: $font-size-base;
+  font-weight: $font-weight-regular;
   font-family: $font-sans-serif;
   line-height: $line-height-base;
 
@@ -35,7 +36,8 @@ h6 {
 
   p,
   ul,
-  ol {
+  ol,
+  blockquote {
     font-size: $font-size-base;
     margin-bottom: $line-height-medium;
   }
@@ -66,9 +68,10 @@ p {
 }
 
 blockquote {
-  margin: 0;
+  font-family: $font-sans-serif;
+  font-weight: $font-weight-bold;
+  margin: 0 0 $line-height-medium;
   padding: 0 (2 * $line-height-base) 0 (2 * $line-height-base);
-  font-style: italic;
 
   @media #{$medium-down} {
     padding: 0 (2 * $line-height-small) 0 (2 * $line-height-small);
