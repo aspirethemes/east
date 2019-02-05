@@ -1,6 +1,10 @@
 {
   "name": "east",
-  "version": "1.2.2",
+  "version": "1.2.3",
+  "engines": {
+    "ghost": ">=2.0.0",
+    "ghost-api": "v2"
+  },
   "keywords": [
     "ghost-theme"
   ],
