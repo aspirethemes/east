@@ -2,12 +2,12 @@
   <div class='row'>
 
     <div class='column small-10 large-12'>
-      {{#if @blog.logo}}
-        <a class='logo' href='{{ @blog.url }}'><img class='logo__img' src='{{ @blog.logo }}' alt='{{ @blog.title }}'></a>
+      {{#if @site.logo}}
+        <a class='logo' href='{{ @site.url }}'><img class='logo__img' src='{{ @site.logo }}' alt='{{ @site.title }}'></a>
       {{else}}
-        <h1 class='logo'><a href='{{ @blog.url }}'>{{ @blog.title }}</a></h1>
+        <h1 class='logo'><a href='{{ @site.url }}'>{{ @site.title }}</a></h1>
       {{/if}}
-      <div class='sidebar__description font-small'>{{ @blog.description }}</div>
+      <div class='sidebar__description font-small'>{{ @site.description }}</div>
     </div>
 
     <label class='off-canvas-toggle'><span data-icon='ei-navicon' data-size='s'></span></label>
@@ -18,21 +18,21 @@
         <nav class='navigation'>
           <ul class='list-bare text-center'>
             {{ navigation }}
-            <li><a class='subscribe-button icon-feed' href='{{ @blog.url }}/rss/'>RSS</a></li>
+            <li><a class='subscribe-button icon-feed' href='{{ @site.url }}/rss/'>RSS</a></li>
           </ul>
         </nav>
       </div>
 
       <div class='column large-12'>
         <ul class='social-nav social-icons'>
-          {{# if @blog.twitter}}
+          {{# if @site.twitter}}
             <li>
               <a href='{{ twitter_url }}' target='_blank'>
                 <span data-icon='ei-sc-twitter' data-size='s'></span>
               </a>
             </li>
           {{/if}}
-          {{# if @blog.facebook}}
+          {{# if @site.facebook}}
             <li>
               <a href='{{ facebook_url }}' target='_blank'>
                 <span data-icon='ei-sc-facebook' data-size='s'></span>
@@ -55,7 +55,7 @@
       <div class='sidebar__copy'>
         <div class='column large-12'>
           <div class='font-tiny'>
-            &copy; {{ date format='YYYY' }} {{ @blog.title }} - {{{t "Published with {ghostlink}" ghostlink="<a class='color-grey' href=\"https://ghost.org\">Ghost</a>" }}}
+            &copy; {{ date format='YYYY' }} {{ @site.title }} - {{{t "Published with {ghostlink}" ghostlink="<a class='color-grey' href=\"https://ghost.org\">Ghost</a>" }}}
           </div>
         </div>
       </div>
