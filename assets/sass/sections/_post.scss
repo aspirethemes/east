@@ -55,17 +55,13 @@
   min-width: 100%;
 }
 
-.kg-embed-card,
-.kg-image-card,
-.kg-gallery-card, {
-  figcaption {
-    width: 100%;
-    text-align: center;
-    color: $color-grey;
-    font-size: $font-size-small;
-    font-family: $font-sans-serif;
-    margin-top: quarter($line-height-base);
-  }
+.kg-card figcaption {
+  width: 100%;
+  text-align: center;
+  color: $color-grey;
+  font-size: $font-size-small;
+  font-family: $font-sans-serif;
+  margin-top: quarter($line-height-base);
 }
 
 // // Koenig Images
