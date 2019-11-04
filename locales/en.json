@@ -2,23 +2,52 @@
   "Next": "Next",
   "Previous": "Previous",
   " (Page %)": " (Page %)",
-  "Back": "Back",
-  "Subscribe": "Subscribe",
-  "Subscribe to {blogtitle}": "Subscribe to {blogtitle}",
-  "Subscribed!": "Subscribed!",
-  "with the email address": "with the email address",
-  "Email": "Email",
-  "Your email address": "Your email address",
-  "You've successfully subscribed to": "You've successfully subscribed to",
+
   "Featured Post": "Featured Post",
-  "Share on Twitter": "Share on Twitter",
-  "Share on Facebook": "Share on Facebook",
-  "Share on Google Plus": "Share on Google Plus",
-  "Search": "Search",
-  "Type to Search": "Type to Search",
-  "Newsletter": "Newsletter",
   "Comments": "Comments",
+  "Newsletter": "Newsletter",
   "1 min read": "1 min read",
   "% min read": "% min read",
-  "Published with {ghostlink}": "Published with {ghostlink}"
+  "Published with {ghostLink}": "Published with {ghostLink}",
+
+  "Share on Twitter": "Share on Twitter",
+  "Share on Facebook": "Share on Facebook",
+  "Share via Email": "Share via Email",
+
+  "Search": "Search",
+  "Type to Search": "Type to Search",
+
+  "Log In": "Log In",
+  "Sign Up": "Sign Up",
+  "Continue": "Continue",
+  "Subscribe": "Subscribe",
+  "Subscribe Now": "Subscribe Now",
+  "Your email ": "Your email",
+  "Please check your inbox and click the link to confirm your subscription.": "Please check your inbox and click the link to confirm your subscription.",
+  "Please enter a valid email address!": "Please enter a valid email address!",
+  "An error occurred, please try again later.": "An error occurred, please try again later.",
+
+  "You've successfully subscribed to {siteTitle}": "You've successfully subscribed to {siteTitle}",
+  "Great! Next, complete checkout for full access to {siteTitle}": "Great! Next, complete checkout for full access to {siteTitle}",
+  "Welcome back! You've successfully signed in.": "Welcome back! You've successfully signed in.",
+  "Success! Your account is fully activated, you now have access to all content.": "Success! Your account is fully activated, you now have access to all content.",
+
+  "Already have an account?": "Already have an account?",
+  "Don't have an account yet?": "Don't have an account yet?",
+
+  "This post is for paying subscribers only": "This post is for paying subscribers only",
+  "This post is for subscribers only": "This post is for subscribers only",
+
+  "Choose your subscription": "Choose your subscription",
+  "Unlock full access to {siteTitle} and see the entire library of members-only content & updates.": "Unlock full access to {siteTitle} and see the entire library of members-only content & updates.",
+  "Sign Up to {siteTitle}": "Sign Up to {siteTitle}",
+
+  "Welcome back!": "Welcome back!",
+  "Log Into your account again.": "Log Into your account again.",
+  "Send login link": "Send login link",
+
+  "Nice, you're a subscriber!": "Nice, you're a subscriber!",
+  "You have an active {siteTitle} account with access to all posts.": "You have an active {siteTitle} account with access to all posts.",
+  "You're a subscriber to free members updates": "You're a subscriber to free members updates",
+  "You are subscribed to free updates from {siteTitle}, but don't have a paid subscription to read all the posts.": "You are subscribed to free updates from {siteTitle}, but don't have a paid subscription to read all the posts."
 }

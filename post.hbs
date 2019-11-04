@@ -22,81 +22,93 @@ the {body} of the default.hbs template, which contains our header/footer. }}
           </div>
         </header>
 
-        <div class='post-content'>
-          {{ content }}
-          <div class='post__tags'>
-            {{tags separator=''}}
+        {{#if access}}
+          <div class='post-content'>
+            {{ content }}
+            <div class='post__tags'>
+              {{tags separator=''}}
+            </div>
           </div>
-        </div>
 
-        <hr>
+          <hr>
 
-        {{#primary_author}}
-          <div class='box box--author'>
+          {{#primary_author}}
+            <div class='box box--author'>
 
-            {{#if profile_image}}
-              <figure class='author-image'>
-                <div class='img' style='background-image: url({{ profile_image }})'><span class='hidden'>{{ name }}'s Picture</span></div>
-              </figure>
-            {{/if}}
-
-            <div class='box__body'>
-
-              <h4 class='box__title'>
-                <a href='{{ url }}'>{{ name }}</a>
-              </h4>
-
-              {{#if bio}}
-                <p class='box__text'>{{ bio }}</p>
+              {{#if profile_image}}
+                <figure class='author-image'>
+                  <div class='img' style='background-image: url({{ profile_image }})'><span class='hidden'>{{ name }}'s Picture</span></div>
+                </figure>
               {{/if}}
 
-              <div class='author-meta box__text'>
-                {{#if twitter}}
-                  <div class='inline-block'>
-                    <a href='{{ twitter_url }}' target='_blank'>
-                      <span data-icon='ei-sc-twitter' data-size='s'></span>
-                    </a>
-                  </div>
+              <div class='box__body'>
+
+                <h4 class='box__title'>
+                  <a href='{{ url }}'>{{ name }}</a>
+                </h4>
+
+                {{#if bio}}
+                  <p class='box__text'>{{ bio }}</p>
                 {{/if}}
 
-                {{#if facebook}}
-                  <div class='inline-block'>
-                    <a href='{{ facebook_url }}' target='_blank'>
-                      <span data-icon='ei-sc-facebook' data-size='s'></span>
-                    </a>
-                  </div>
-                {{/if}}
+                <div class='author-meta box__text'>
+                  {{#if twitter}}
+                    <div class='inline-block'>
+                      <a href='{{ twitter_url }}' target='_blank'>
+                        <span data-icon='ei-sc-twitter' data-size='s'></span>
+                      </a>
+                    </div>
+                  {{/if}}
 
-                {{#if website}}
-                  <div class='inline-block'>
-                    <a href='{{ website }}'>
-                      <span data-icon='ei-link' data-size='s'></span>
-                    </a>
-                  </div>
-                {{/if}}
+                  {{#if facebook}}
+                    <div class='inline-block'>
+                      <a href='{{ facebook_url }}' target='_blank'>
+                        <span data-icon='ei-sc-facebook' data-size='s'></span>
+                      </a>
+                    </div>
+                  {{/if}}
 
-                {{#if location}}
-                  <div class='inline-block'>
-                    <span data-icon='ei-location' data-size='s'></span>
-                    {{ location }}
-                  </div>
-                {{/if}}
+                  {{#if website}}
+                    <div class='inline-block'>
+                      <a href='{{ website }}'>
+                        <span data-icon='ei-link' data-size='s'></span>
+                      </a>
+                    </div>
+                  {{/if}}
+
+                  {{#if location}}
+                    <div class='inline-block'>
+                      <span data-icon='ei-location' data-size='s'></span>
+                      {{ location }}
+                    </div>
+                  {{/if}}
+                </div>
+
               </div>
 
             </div>
+          {{/primary_author}}
 
-          </div>
-        {{/primary_author}}
+          {{> share}}
 
-        {{> share}}
-
-        {{> post-prev-next-pagination}}
-
-        {{#if @labs.subscribers}}
-          {{> subscribe-form}}
+          {{> post-prev-next-pagination}}
         {{/if}}
 
-        {{> disqus}}
+        {{#if @labs.members}}
+          {{#unless @member}}
+            {{#if access}}
+              {{> subscribe-form}}
+            {{/if}}
+          {{/unless}}
+        {{/if}}
+
+        {{#unless access}}
+          {{> post-upgrade-cta }}
+        {{/unless}}
+
+        {{#if access}}
+          {{> disqus}}
+        {{/if}}
       </article>
     </div>
 

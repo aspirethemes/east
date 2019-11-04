@@ -1,0 +1,84 @@
+/*------------------------------------*\
+  Components > Member Plan
+\*------------------------------------*/
+
+@media #{$medium-up} {
+  .c-member-plans {
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    max-width: 700px;
+  }
+
+  .c-member-plan {
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .c-member-plan + .c-member-plan {
+    margin-left: $line-height-base;
+  }
+}
+
+.c-member-plan {
+  padding: $line-height-base;
+  margin-bottom: $line-height-base;
+  background-color: $color-white;
+  border-radius: 4px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, .08), 0 0 1px rgba(1, 0, 0, .1);
+}
+
+.c-member-plan__header {
+  position: relative;
+  padding-bottom: $line-height-base;
+  color: $color-grey;
+  text-align: center;
+}
+
+.c-member-plan__title {
+  margin-bottom: half($line-height-base);
+  color: $color-text;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.c-member-plan__amount {
+  color: $color-text;
+  font-size: 26px;
+}
+
+.c-member-plan__content {
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.c-member-plan__list {
+  margin: 0;
+  padding: 0;
+  margin-bottom: $line-height-base;
+  list-style: none;
+}
+
+.c-member-plan__list li {
+  position: relative;
+  margin: 0;
+  font-size: $font-size-small;
+  padding: 0 0 quarter($line-height-base) half($line-height-base);
+
+  &:last-child {
+    padding-bottom: 0;
+  }
+}
+
+.c-member-plan__list li:before {
+  display: block;
+  position: absolute;
+  left: 0;
+  font-size: $font-size-tiny;
+  font-weight: $font-weight-bold;
+  color: $color-brand;
+  content: '✓';
+}

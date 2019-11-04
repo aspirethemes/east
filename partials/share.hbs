@@ -19,13 +19,12 @@
     </a>
   </li>
 
-  <li>
+  <li class='c-share__item'>
     <a class='share-list__link'
-       title='{{t "Share on Google Plus" }}'
-       aria-label='{{t "Share on Google Plus" }}'
-       href='https://plus.google.com/share?url={{ url absolute='true' }}'
-       onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530'); return false;">
-    <div data-icon='ei-sc-google-plus' data-size='s' class='share-list__icon share-list__icon--google'></div>
+       title='{{t "Share via Email" }}'
+       aria-label='{{t "Share via Email" }}'
+       href="mailto:?subject={{ encode title }}&body={{ url absolute='true' }}">
+      <div data-icon='ei-envelope' data-size='s' class='share-list__icon'></div>
     </a>
   </li>
 </ul>

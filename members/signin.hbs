@@ -1,0 +1,39 @@
+{{!< ../default}}
+
+<div class='wrapper'>
+  {{#if @member}}
+    {{!-- Logged in: Redirect home --}}
+    <script>window.location = '{{@site.url}}';</script>
+  {{else}}
+    {{!-- Not logged in: Signin form --}}
+    <div class='row row--full'>
+      <div class='column large-12'>
+        <header class='page-header box'>
+          <div class='box__body'>
+            <h4 class='box__title'>{{t 'Welcome back!'}}</h2>
+            <p class='box__text'>{{t 'Log Into your account again.'}}</p>
+          </div>
+        </header>
+      </div>
+    </div>
+
+    <div class='row row--full'>
+      <div class='column medium-6 large-5'>
+        <div class="box box--news-letter subscribe-form">
+          <form data-members-form='signin' class='subscribe-form'>
+            <div class='form-group'>
+              <input type='email' placeholder='{{t 'Email ' }}' data-members-email autocomplete='false'>
+              <button type='submit' class='button'>{{t 'Send login link' }}</button>
+            </div>
+
+            <div class='u-alert u-alert--success u-mt-8'>{{t 'Please check your inbox and click the link to confirm your subscription.' }}</div>
+            <div class='u-alert u-alert--invalid u-mt-8'>{{t 'Please enter a valid email address!' }}</div>
+            <div class='u-alert u-alert--error u-mt-8'>{{t 'An error occurred, please try again later.' }}</div>
+          </form>
+        </div>
+
+        <p class='font-small'>{{t "Don't have an account yet?"}} <a href='/signup/' class='u-link'>{{t 'Sign Up'}}</a></p>
+      </div>
+    </div>
+  {{/if}}
+</div>

@@ -3,5 +3,14 @@
 </h5>
 
 <div class="box box--news-letter subscribe-form">
-  {{subscribe_form placeholder=(t 'Email') button_class="button button--expand"}}
+  <form data-members-form='subscribe' class='subscribe-form'>
+    <div class='form-group'>
+      <input type='email' placeholder='{{t 'Email ' }}' data-members-email autocomplete='false'>
+      <button type='submit' class='button'>{{t 'Subscribe' }}</button>
+    </div>
+
+    <div class='u-alert u-alert--success u-mt-8'>{{t 'Please check your inbox and click the link to confirm your subscription.' }}</div>
+    <div class='u-alert u-alert--invalid u-mt-8'>{{t 'Please enter a valid email address!' }}</div>
+    <div class='u-alert u-alert--error u-mt-8'>{{t 'An error occurred, please try again later.' }}</div>
+  </form>
 </div>

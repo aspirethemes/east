@@ -1,0 +1,33 @@
+{{!< ../default}}
+
+<div class='wrapper'>
+  {{#if @member.paid}}
+  <div class='row row--full'>
+    <div class='column large-12'>
+      <header class='page-header box'>
+        <div class='box__body'>
+          <h4 class='box__title'>{{t "Nice, you're a subscriber!"}}</h2>
+          <p class='box__text'>{{t "You have an active {siteTitle} account with access to all posts." siteTitle=@site.title}}</p>
+        </div>
+      </header>
+    </div>
+  </div>
+
+  {{else if @member}}
+  <div class='row row--full'>
+    <div class='column large-12'>
+      <header class='page-header box'>
+        <div class='box__body'>
+          <h4 class='box__title'>{{t "You're a subscriber to free members updates"}}</h2>
+          <p class='box__text'>{{t "You are subscribed to free updates from {siteTitle}, but don't have a paid subscription to read all the posts." siteTitle=@site.title}}</p>
+        </div>
+      </header>
+      <a class='button' href='/signup/'>{{t 'Subscribe Now'}}</a>
+    </div>
+  </div>
+
+  {{else}}
+    {{!-- Not logged in: Redirect to signin --}}
+    <script>window.location = '{{@site.url}}/signin/';</script>
+  {{/if}}
+</div>

@@ -1,0 +1,11 @@
+/*------------------------------------*\
+  Trumps > Links
+\*------------------------------------*/
+
+.u-link {
+  color: $color-brand !important;
+
+  @include attention() {
+    text-decoration: underline;
+  }
+}

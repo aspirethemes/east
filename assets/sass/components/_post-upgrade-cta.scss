@@ -1,0 +1,22 @@
+/*------------------------------------*\
+  Components > Post Upgrade CTA
+\*------------------------------------*/
+
+.c-post-upgrade-cta {
+  text-align: center;
+  background-color: $bg-color-gray;
+  padding: half($line-height-base) + quarter($line-height-base);
+
+  @media #{$medium-up} {
+    padding: double($line-height-base) + quarter($line-height-base);
+  }
+
+  &__title {
+    font-size: 26px;
+    margin-bottom: half($line-height-base) + quarter($line-height-base);
+  }
+
+  .button {
+    margin-bottom: half($line-height-base) + quarter($line-height-base);
+  }
+}

@@ -38,13 +38,28 @@ textarea {
     }
 
     .form-group {
-      flex: 8;
+      width: 100%;
+      display: flex;
     }
 
     .button {
-      flex: 2;
+      flex: 3;
       position: relative;
       left: -1px;
     }
+  }
+
+  .u-alert {
+    display: none;
+  }
+
+  &.loading .button {
+    @extend .loading;
+  }
+
+  &.success .u-alert--success,
+  &.invalid .u-alert--invalid,
+  &.error   .u-alert--error  {
+    display: block;
   }
 }

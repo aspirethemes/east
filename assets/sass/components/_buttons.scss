@@ -11,8 +11,9 @@
   line-height: $line-height-medium;
   letter-spacing: $base-letter-spacing;
   border: 0;
+  outline: none;
   border-radius: 0;
-
+  white-space: nowrap;
   text-decoration: none;
   color: $color-white;
   background-color: $color-text;
@@ -31,5 +32,30 @@
 
   &--expand {
     width: 100%;
+  }
+
+  &.loading {
+    position: relative;
+    padding-right: $line-height-base + quarter($line-height-base);
+
+    @-webkit-keyframes spin {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+
+    &:after {
+      position: absolute;
+      top: 14px;
+      right: 14px;
+      content: '';
+      display: block;
+      height: half($line-height-base);
+      width: half($line-height-base);
+      border: 2px solid $color-white;
+      border-radius: 100%;
+      border-right-color: transparent;
+      border-top-color: transparent;
+      animation: spin 500ms infinite linear;
+    }
   }
 }

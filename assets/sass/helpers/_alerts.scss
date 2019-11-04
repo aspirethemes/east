@@ -1,0 +1,20 @@
+/*------------------------------------*\
+  Trumps > Alerts
+\*------------------------------------*/
+
+.u-alert {
+  font-size: $font-size-small;
+  line-height: $line-height-small;
+}
+
+.u-alert--success {
+  color: $color-success;
+}
+
+.u-alert--invalid {
+  color: $color-error;
+}
+
+.u-alert--error {
+  color: $color-error;
+}

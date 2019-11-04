@@ -1,0 +1,20 @@
+// *----------------------------------*\
+// Tools > Mixins
+// *----------------------------------*/
+
+// Apply ‘attention’ styles in one go.
+// https://goo.gl/LFx8on
+//
+// Example use:
+//
+// @include attention() {
+//   text-decoration: underline;
+// }
+
+@mixin attention() {
+  &:hover,
+  &:active,
+  &:focus {
+    @content;
+  }
+}
