@@ -14,6 +14,7 @@
       plumber      = require('gulp-plumber'),
       gutil        = require('gulp-util'),
       replace      = require('gulp-replace'),
+      zip          = require('gulp-zip'),
       fs           = require('fs');
 
   // Set the compiler to use Dart Sass instead of Node Sass
@@ -88,6 +89,19 @@
     'build',
     gulp.series('build_css', 'js')
   );
+
+  gulp.task('zip', function () {
+    return gulp.src([
+      './**',
+      '!node_modules/**',
+      '!bower_components/**',
+      '!.git/**',
+      '!.DS_Store'
+      ])
+    .pipe(zip('east.zip'))
+    .pipe(gulp.dest('../'))
+    done();
+  });
 
   gulp.task(
     'default',

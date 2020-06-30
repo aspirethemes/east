@@ -1,0 +1,26 @@
+{{!< default}}
+
+<div class='wrapper'>
+
+  <div class='row row--full'>
+    <div class='column large-12'>
+
+      <header class='page-header box'>
+        <div class='box__body'>
+          <h1 class='box__title'>404</h1>
+          <p class='box__text'>{{t 'Page Not Found' }}</p>
+        </div>
+      </header>
+
+    </div>
+  </div>
+
+  <div class='row row--full'>
+    <div class='post-list'>
+      {{#get 'posts' limit='6' include='tags' visibility='all'}}
+        {{> loop }}
+      {{/get}}
+    </div>
+  </div>
+
+</div>

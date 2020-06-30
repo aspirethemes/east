@@ -5,16 +5,34 @@
 .post-card {
   margin-bottom: $line-height-medium;
   padding-bottom: $line-height-medium;
-
   border-bottom: 1px solid $color-border;
   text-align: center;
 
-  &__image {
+  &__media {
+    overflow: hidden;
     margin-bottom: half($line-height-base);
-    transition: $base-transition-speed;
+  }
 
-    @media #{$medium-down} {
-      margin-bottom: half($line-height-medium);
+  &__image-wrap {
+    display: block;
+    position: relative;
+    padding-top: 56.25%;
+  }
+
+  &__image {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    object-fit: cover;
+    transition: all $base-transition-speed ease;
+
+    .js-enabled &.js-fadein {
+      opacity: 0;
+    }
+
+    .js-enabled &.is-inview {
+      opacity: 1;
     }
   }
 

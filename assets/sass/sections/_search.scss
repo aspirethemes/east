@@ -9,12 +9,10 @@
   bottom: 0;
   left: 0;
   z-index: 101;
-
   white-space: nowrap;
   background: $color-white;
   opacity: 0;
   visibility: hidden;
-
   transition: all $base-transition-speed ease-in-out;
   transform: translate(0px, -100%) scale(0, 0);
 
@@ -45,6 +43,7 @@
 }
 
 .search-form {
+  margin-top: double($line-height-base);
   margin-bottom: half($line-height-base);
 
   &__field {
@@ -73,12 +72,6 @@
   &__submit {
     display: none;
   }
-
-  &__fieldset {
-    border: 0;
-    margin-top: double($line-height-base);
-    padding: 0;
-  }
 }
 
 .search-results {
@@ -97,6 +90,7 @@
       display: block;
       text-decoration: none;
       font-size: $font-size-medium;
+      font-weight: $font-weight-bold;
       line-height: $line-height-medium;
     }
 

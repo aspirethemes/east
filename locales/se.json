@@ -1,0 +1,55 @@
+{
+  "Next": "Nästa",
+  "Previous": "Föregående",
+  " (Page %)": " (Sida %)",
+
+  "Featured Post": "Markerat Inlägg",
+  "Page Not Found": "Sidan hittas inte",
+  "Comments": "Kommentarer",
+  "Newsletter": "Nyhetsbrev",
+  "1 min read": "1 min läsning",
+  "% min read": "% min läsning",
+  "Published with {ghostLink}": "Publicerad med {ghostLink}",
+
+  "Share on Twitter": "Dela på Twitter",
+  "Share on Facebook": "Dela på Facebook",
+  "Share on Pinterest": "Dela på Pinterest",
+  "Share via Email": "Dela via Email",
+
+  "Search": "Sök",
+  "Type to Search": "Skriv sökord",
+
+  "Log In": "Logga In",
+  "Sign Up": "Följ",
+  "Continue": "Fortsätt",
+  "Subscribe": "Prenumerera",
+  "Subscribe Now": "Prenumerera Nu",
+  "Your email ": "Din email",
+  "Please check your inbox and click the link to confirm your subscription.": "Var vänlig kontrollera din inbox och klicka på länken för att bekräfta din prenumeration.",
+  "Please enter a valid email address!": "Var vänlig ange en giltig email-adress!",
+  "An error occurred, please try again later.": "Ett fel har inträffat, var vänlig försök senare.",
+
+  "You've successfully subscribed to {siteTitle}": "Du prenumererar nu på {siteTitle}",
+  "Great! Next, complete checkout for full access to {siteTitle}": "Utmärkt! Vidare, fullfölj beställningen för full tillgång till {siteTitle}",
+  "Welcome back! You've successfully signed in.": "Välkommen tillbaka! Du är nu inloggad.",
+  "Success! Your account is fully activated, you now have access to all content.": "Genomförd! Ditt konto är nu helt aktiverat, och du har nu tillgång till allt innehåll.",
+
+  "Already have an account?": "Har du redan ett konto?",
+  "Don't have an account yet?": "Saknar du konto?",
+
+  "This post is for paying subscribers only": "Den här artikeln är enbart för betalande prenumeranter",
+  "This post is for subscribers only": "Den här artikeln är enbart för prenumeranter",
+
+  "Choose your subscription": "Välj prenumeration",
+  "Unlock full access to {siteTitle} and see the entire library of members-only content & updates.": "Lås upp för full tillgång till {siteTitle} och hela arkivet av material och uppdateringar bara för medlemmar.",
+  "Sign Up to {siteTitle}": "Följ {siteTitle}",
+
+  "Welcome back!": "Välkommen tillbaka!",
+  "Log Into your account again.": "Logga in på ditt konto igen.",
+  "Send login link": "Skicka länk för inloggning",
+
+  "Nice, you're a subscriber!": "Utmärkt, du har en prenumeration!",
+  "You have an active {siteTitle} account with access to all posts.": "Du har ett aktivt {siteTitle} konto med tillgång till alla inlägg.",
+  "You're a subscriber to free members updates": "Du är prenumerant med tillgång till uppdateringar för icke-betalande",
+  "You are subscribed to free updates from {siteTitle}, but don't have a paid subscription to read all the posts.": "Du är prenumerant med tillgång till uppdateringar från {siteTitle}, men saknar betald prenumeration med tillgång till alla inlägg."
+}

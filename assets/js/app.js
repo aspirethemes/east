@@ -22,36 +22,36 @@ $(document).ready(function() {
   var stripe = getParameterByName('stripe');
 
   $(document).ready(function () {
-      if (action == 'subscribe') {
-        $('body').addClass('subscribe-success');
+    if (action == 'subscribe') {
+      $('body').addClass('subscribe-success');
+    }
+
+    if (action == 'signup') {
+      window.location = '/signup/?action=checkout';
+    }
+
+    if (action == 'checkout') {
+      $('body').addClass('signup-success');
+    }
+
+    if (action == 'signin') {
+      $('body').addClass('signin-success');
+    }
+
+    if (stripe == 'success') {
+      $('body').addClass('checkout-success');
+    }
+
+    $('.c-notification__close').click(function () {
+      var uri = window.location.toString();
+
+      $(this).parent().addClass('closed');
+
+      if (uri.indexOf('?') > 0) {
+        var clean_uri = uri.substring(0, uri.indexOf('?'));
+        window.history.replaceState({}, document.title, clean_uri);
       }
-
-      if (action == 'signup') {
-        window.location = '/signup/?action=checkout';
-      }
-
-      if (action == 'checkout') {
-        $('body').addClass('signup-success');
-      }
-
-      if (action == 'signin') {
-        $('body').addClass('signin-success');
-      }
-
-      if (stripe == 'success') {
-        $('body').addClass('checkout-success');
-      }
-
-      $('.c-notification__close').click(function () {
-        var uri = window.location.toString();
-
-        $(this).parent().addClass('closed');
-
-        if (uri.indexOf('?') > 0) {
-          var clean_uri = uri.substring(0, uri.indexOf('?'));
-          window.history.replaceState({}, document.title, clean_uri);
-        }
-      });
+    });
   });
 
   // =====================

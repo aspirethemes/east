@@ -5,12 +5,12 @@
       {{#if @site.logo}}
         <a class='logo' href='{{ @site.url }}'><img class='logo__img' src='{{ @site.logo }}' alt='{{ @site.title }}'></a>
       {{else}}
-        <h1 class='logo'><a href='{{ @site.url }}'>{{ @site.title }}</a></h1>
+        <a href='{{ @site.url }}' class='logo'>{{ @site.title }}</a>
       {{/if}}
       <div class='sidebar__description font-small'>{{ @site.description }}</div>
     </div>
 
-    <label class='off-canvas-toggle'><span data-icon='ei-navicon' data-size='s'></span></label>
+    <div class='off-canvas-toggle'><span data-icon='ei-navicon' data-size='s'></span></div>
 
     <div class='off-canvas-content'>
 
@@ -36,25 +36,25 @@
         <ul class='social-nav social-icons'>
           {{# if @site.twitter}}
             <li>
-              <a href='{{ twitter_url }}' target='_blank'>
+              <a href='{{ twitter_url }}' aria-label='Twitter' target='_blank' rel='noopener noreferrer'>
                 <span data-icon='ei-sc-twitter' data-size='s'></span>
               </a>
             </li>
           {{/if}}
           {{# if @site.facebook}}
             <li>
-              <a href='{{ facebook_url }}' target='_blank'>
+              <a href='{{ facebook_url }}' aria-label='Facebook' target='_blank' rel='noopener noreferrer'>
                 <span data-icon='ei-sc-facebook' data-size='s'></span>
               </a>
             </li>
           {{/if}}
           <li>
-            <a href='https://instagram.com/{{! Add Instagram handle }}' target='_blank'>
+            <a href='https://instagram.com/{{! Add Instagram handle }}' aria-label='Instagram' target='_blank' rel='noopener noreferrer'>
               <span data-icon='ei-sc-instagram' data-size='s'></span>
             </a>
           </li>
           <li>
-            <a class='toggle-search-button' href='#'>
+            <a href='#' class='toggle-search-button' aria-label='{{t "Search" }}'>
               <span data-icon='ei-search' data-size='s'></span>
             </a>
           </li>

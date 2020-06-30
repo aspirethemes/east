@@ -1,11 +1,12 @@
-<h5 class="separator">
+<p class="separator">
   <span class="separator__title">{{t 'Newsletter' }}</span>
-</h5>
+</p>
 
 <div class="box box--news-letter subscribe-form">
   <form data-members-form='subscribe' class='subscribe-form'>
     <div class='form-group'>
-      <input type='email' placeholder='{{t 'Email ' }}' data-members-email autocomplete='false'>
+      <label for='subscribe-form-email' class='u-hidden-visually'>{{t 'Your email ' }}</label>
+      <input type='email' id='subscribe-form-email' placeholder='{{t 'Email ' }}' data-members-email>
       <button type='submit' class='button'>{{t 'Subscribe' }}</button>
     </div>
 

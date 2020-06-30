@@ -3,9 +3,9 @@
 //---------------------------
 
 .box {
+  overflow: hidden;
   padding-bottom: $line-height-medium;
   margin-bottom: $line-height-medium;
-  overflow: hidden;
   border-bottom: 1px solid $color-border;
 
   @media #{$large-up} {
@@ -21,20 +21,16 @@
 
   &__title {
     margin: 0;
-    font-weight: $font-weight-regular;
     line-height: $line-height-medium;
   }
 
   &__body {
-    @media #{$medium-up} {
-      overflow: hidden;
-    }
+    overflow: hidden;
   }
 
   &__text {
     margin-top: quarter($line-height-medium);
     margin-bottom: 0;
-
     font-size: $font-size-small;
     line-height: $line-height-small;
   }

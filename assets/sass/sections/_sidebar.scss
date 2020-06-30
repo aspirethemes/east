@@ -6,18 +6,11 @@
   display: block;
   margin-bottom: quarter($line-height-base);
   font-weight: $font-weight-bold;
+  text-decoration: none;
 
   @media #{$large-down} {
     margin-bottom: 0;
     line-height: $line-height-medium;
-  }
-
-  a {
-    transition: $base-transition-speed;
-    text-decoration: none;
-    letter-spacing: $base-letter-spacing;
-
-    &:hover { color: $color-grey; }
   }
 
   &__img {

@@ -1,13 +1,12 @@
 <div class='search-form-container'>
 
   <form class='search-form'>
-    <fieldset class='search-form__fieldset'>
-      <div class='row'>
-        <div class='column column--center large-8'>
-          <input class='search-form__field' placeholder='{{t "Type to Search" }}' autofocus>
-        </div>
+    <div class='row'>
+      <div class='column column--center large-8'>
+        <label for='search-form-input' class='u-hidden-visually'>{{t 'Type to Search'}}</label>
+        <input type='search' class='search-form__field' placeholder='{{t "Type to Search" }}' id='search-form-input'>
       </div>
-    </fieldset>
+    </div>
   </form>
 
   <div class='row'>

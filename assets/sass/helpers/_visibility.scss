@@ -1,0 +1,24 @@
+/*------------------------------------*\
+  Trumbs > Hide
+\*------------------------------------*/
+
+.u-hidden {
+  display: none;
+}
+
+.u-block {
+  display: block;
+}
+
+/**
+ * Hide only visually, but have it available for screen readers:
+ * https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css#L119-L133
+ */
+.u-hidden-visually {
+  position: absolute;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+}

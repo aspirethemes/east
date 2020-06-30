@@ -11,17 +11,3 @@ img {
   height: auto;
   max-width: 100%;
 }
-
-.post-content {
-  img,
-  iframe,
-  .fluid-width-video-wrapper,
-  .twitter-tweet {
-    // margin-bottom: $line-height-medium !important;
-
-    @media #{$medium-down} {
-      // margin-bottom: $line-height-small;
-    }
-  }
-  p img { margin-bottom: 0; }
-}

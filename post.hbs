@@ -15,7 +15,7 @@ the {body} of the default.hbs template, which contains our header/footer. }}
     <div class='column column--center medium-10 large-10'>
       <article class='{{ post_class }}'>
         <header class='post__header'>
-          <h2 class='post__title'>{{ title }}</h2>
+          <h1 class='post__title'>{{ title }}</h1>
           <div class='post__meta'>
             <time datetime='{{ date format='YYYY-MM-DD' }}'>{{ date format='DD MMMM YYYY' }}</time> .
             <span>{{ reading_time minute=(t '1 min read') minutes=(t '% min read') }}</span>
@@ -54,7 +54,7 @@ the {body} of the default.hbs template, which contains our header/footer. }}
                 <div class='author-meta box__text'>
                   {{#if twitter}}
                     <div class='inline-block'>
-                      <a href='{{ twitter_url }}' target='_blank'>
+                      <a href='{{ twitter_url }}' aria-label='Twitter' target='_blank' rel='noopener noreferrer'>
                         <span data-icon='ei-sc-twitter' data-size='s'></span>
                       </a>
                     </div>
@@ -62,7 +62,7 @@ the {body} of the default.hbs template, which contains our header/footer. }}
 
                   {{#if facebook}}
                     <div class='inline-block'>
-                      <a href='{{ facebook_url }}' target='_blank'>
+                      <a href='{{ facebook_url }}' aria-label='Facebook' target='_blank' rel='noopener noreferrer'>
                         <span data-icon='ei-sc-facebook' data-size='s'></span>
                       </a>
                     </div>
