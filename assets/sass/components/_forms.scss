@@ -31,22 +31,20 @@ textarea {
 // Subscribe Form
 
 .subscribe-form {
-  @media #{$medium-up} {
-    form {
-      display: flex;
-      flex-wrap: wrap;
-    }
+  form {
+    display: flex;
+    flex-wrap: wrap;
+  }
 
-    .form-group {
-      width: 100%;
-      display: flex;
-    }
+  .form-group {
+    width: 100%;
+    display: flex;
+  }
 
-    .button {
-      flex: 3;
-      position: relative;
-      left: -1px;
-    }
+  .button {
+    flex: 3;
+    position: relative;
+    left: -1px;
   }
 
   .u-alert {
