@@ -19,8 +19,9 @@
   "Search": "Søg",
   "Type to Search": "Skriv til Søg",
 
+  "Account": "Konto",
   "Log In": "Log ind",
-  "Sign Up": "Tilmelde",
+  "Log Out": "Log ud",
   "Continue": "Blive ved",
   "Subscribe": "Tilmeld",
   "Subscribe Now": "Tilmeld nu",
@@ -42,7 +43,7 @@
 
   "Choose your subscription": "Vælg dit abonnement",
   "Unlock full access to {siteTitle} and see the entire library of members-only content & updates.": "Lås op for fuld adgang til {siteTitle} og se hele biblioteket med kun indhold og opdateringer til medlemmer.",
-  "Sign Up to {siteTitle}": "Tilmeld dig {siteTitle}",
+  "Subscribe to {siteTitle}": "Tilmeld dig {siteTitle}",
 
   "Welcome back!": "Velkommen tilbage!",
   "Log Into your account again.": "Log ind på din konto igen.",

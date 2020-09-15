@@ -39,7 +39,7 @@ a.kg-bookmark-container {
 
 .kg-bookmark-title {
   font-size: $font-size-medium;
-  font-weight: $font-weight-regular;
+  font-weight: $font-weight-bold;
 }
 
 .kg-bookmark-description {
@@ -72,12 +72,15 @@ a.kg-bookmark-container {
 .kg-bookmark-icon {
   width: $line-height-medium + half($line-height-medium);
   height: $line-height-medium + half($line-height-medium);
-  margin-right: half($line-height-medium);
 }
 
-.kg-bookmark-author:after {
-  content: "•";
-  margin: 0 half($line-height-medium);
+.kg-bookmark-author {
+  margin-left: half($line-height-medium);
+
+  :after {
+    content: '•';
+    margin: 0 half($line-height-medium);
+  }
 }
 
 .kg-bookmark-thumbnail {

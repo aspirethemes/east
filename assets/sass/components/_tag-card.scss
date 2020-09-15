@@ -7,28 +7,30 @@
   background-color: $bg-color-gray;
 
   &__image {
-    background-color: $bg-color-gray;
     background-position: 50%;
     background-repeat: no-repeat;
     background-size: cover;
     text-decoration: none;
+    background-color: $bg-color-dark;
 
     &:after {
-      transition: $base-transition-speed;
       position: absolute;
       top: 0;
-      height: 100%;
-      width: 100%;
+      bottom: 0;
+      left: 0;
+      right: 0;
       content: '';
-      background-color: #000;
-      opacity: .1;
+      transition: $base-transition-speed;
+      background: linear-gradient(0deg, rgba($bg-color-dark, .3) 0, transparent 100%);
     }
   }
 
   &__title {
-    position: relative;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
     z-index: 1;
-    margin: 0;
     padding: half($line-height-base);
     font-weight: $font-weight-bold;
     color: $color-white;
@@ -36,7 +38,7 @@
 
   &:hover {
     .tag-card__image:after {
-      opacity: .2;
+      background-color: rgba($bg-color-dark, .1);
     }
   }
 }

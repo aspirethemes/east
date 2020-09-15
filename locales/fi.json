@@ -19,8 +19,9 @@
   "Search": "Hae",
   "Type to Search": "kirjoita hakua",
 
+  "Account": "Tili",
   "Log In": "Kirjaudu sisään",
-  "Sign Up": "Kirjaudu",
+  "Log Out": "Kirjautua ulos",
   "Continue": "Jatkaa",
   "Subscribe": "Tilaa",
   "Subscribe Now": "Tilaa nyt",
@@ -42,7 +43,7 @@
 
   "Choose your subscription": "Valitse tilauksesi",
   "Unlock full access to {siteTitle} and see the entire library of members-only content & updates.": "Avaa {siteTitle} -sovelluksen täydet käyttöoikeudet ja katso koko kirja, joka sisältää vain jäsenille tarkoitettua sisältöä ja päivityksiä.",
-  "Sign Up to {siteTitle}": "Tilaa {siteTitle}",
+  "Subscribe to {siteTitle}": "Tilaa {siteTitle}",
 
   "Welcome back!": "Tervetuloa takaisin!",
   "Log Into your account again.": "Kirjaudu tiliisi uudelleen.",

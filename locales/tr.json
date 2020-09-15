@@ -19,8 +19,9 @@
   "Search": "Ara",
   "Type to Search": "Aramak için Yazın",
 
+  "Account": "Hesap",
   "Log In": "Giriş Yap",
-  "Sign Up": "Kayıt Ol",
+  "Log Out": "Çıkış Yap",
   "Continue": "Devam Et",
   "Subscribe": "Abone Ol",
   "Subscribe Now": "Şimdi Abone Ol",
@@ -42,7 +43,7 @@
 
   "Choose your subscription": "Aboneliğinizi seçin",
   "Unlock full access to {siteTitle} and see the entire library of members-only content & updates.": "{siteTitle} sitesindeki abonelere özel içeriklere erişmek için abonelik planınızı seçin ve hiçbir şeyi kaçırmayın.",
-  "Sign Up to {siteTitle}": "{siteTitle} sitesine Kayıt Ol",
+  "Get access to premium content": "Özel içeriklere erişin",
 
   "Welcome back!": "Tekrar Hoşgeldiniz!",
   "Log Into your account again.": "Hesabınıza tekrar Giriş Yapın.",

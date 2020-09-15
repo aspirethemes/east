@@ -52,7 +52,10 @@
   display: flex;
   align-items: center;
   flex-direction: column;
-  min-width: 100%;
+
+  > * {
+    width: 100%;
+  }
 }
 
 p img,
@@ -77,8 +80,6 @@ p img,
   }
 }
 
-// // Koenig Images
-
 .post-content {
   display: flex;
   align-items: center;
@@ -86,38 +87,29 @@ p img,
   word-break: break-word;
   font-family: $font-serif;
 
-  address,
-  h1, h2, h3, h4, h5, h6,
-  p, pre,
-  dl, ol, ul,
-  hr,
-  form,
-  table,
-  fieldset,
-  .footnotes,
-  .cp_embed_wrapper {
+  > * {
     min-width: 100%;
   }
 
-  h1,
-  h2,
-  h3,
-  h4,
-  h5 {
-    font-family: $font-sans-serif;
-    margin-bottom: half($line-height-medium);
-
-    @media #{$large-up} {
-      &:not(:first-child) {
-        margin-top: double($line-height-medium);
-      }
-    }
+  > * + * {
+    margin-top: $line-height-base;
   }
 
-  figure {
-    margin: 0;
-    padding: 0;
-    margin-bottom: $line-height-medium;
+  hr {
+    margin-bottom: 0;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: $font-sans-serif;
+    margin-top: double($line-height-tiny);
+
+    &:first-child {
+      margin-top: 0;
+    }
+
+    + * {
+      margin-top: quarter($line-height-base);
+    }
   }
 
   .kg-width-full {
@@ -148,7 +140,7 @@ p img,
   }
 }
 
-// // Koenig Gallery
+// Koenig Gallery
 
 .kg-gallery-card {
   @media #{$large-up} {

@@ -19,8 +19,9 @@
   "Search": "Rechercher",
   "Type to Search": "Tapez pour rechercher",
 
+  "Account": "Compte",
   "Log In": "Se connecter",
-  "Sign Up": "S'inscrire",
+  "Log Out": "Déconnexion",
   "Continue": "Continuez",
   "Subscribe": "S’abonner",
   "Subscribe Now": "S’abonner",
@@ -42,7 +43,7 @@
 
   "Choose your subscription": "Choisissez votre abonnement",
   "Unlock full access to {siteTitle} and see the entire library of members-only content & updates.": "Déverrouillez l'accès complet à {siteTitle} et consultez l'intégralité de la bibliothèque de contenu et de mises à jour réservée aux membres.",
-  "Sign Up to {siteTitle}": "Inscrivez-vous à {siteTitle}",
+  "Subscribe to {siteTitle}": "Subscribe à {siteTitle}",
 
   "Welcome back!": "Nous saluons le retour!",
   "Log Into your account again.": "Connectez-vous à nouveau à votre compte.",

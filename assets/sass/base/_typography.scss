@@ -21,7 +21,6 @@ h4,
 h5,
 h6 {
   font-size: $font-size-base;
-  margin: 0 0 $line-height-medium;
   line-height: initial;
 
   a { text-decoration: none; }
@@ -39,7 +38,6 @@ h6 {
   ol,
   blockquote {
     font-size: $font-size-base;
-    margin-bottom: $line-height-medium;
   }
 
   li {
@@ -47,30 +45,9 @@ h6 {
   }
 }
 
-p {
-  margin: 0 0 $line-height-base;
-
-  &.font-medium {
-    margin: 0 0 $line-height-medium;
-  }
-
-  &.font-small {
-    margin: 0 0 $line-height-small;
-  }
-
-  &.font-tiny {
-    margin: 0 0 $line-height-tiny;
-  }
-
-  @media #{$medium-down} {
-    margin: 0 0 $line-height-medium;
-  }
-}
-
 blockquote {
   font-family: $font-sans-serif;
   font-weight: $font-weight-bold;
-  margin: 0 0 $line-height-medium;
   padding: 0 (2 * $line-height-base) 0 (2 * $line-height-base);
 
   @media #{$medium-down} {
@@ -86,19 +63,6 @@ hr {
 
   @media #{$medium-down} {
     margin: 0 0 ($line-height-medium);
-  }
-}
-
-ul,
-ol {
-  margin: 0 0 $line-height-base;
-
-  ul, ol {
-    margin: 0;
-  }
-
-  @media #{$medium-down} {
-    margin: 0 0 $line-height-medium;
   }
 }
 

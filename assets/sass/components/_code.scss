@@ -13,15 +13,12 @@ code {
 pre {
   overflow: auto;
   margin-top: 0;
-  margin-bottom: $line-height-base;
   padding: $line-height-base;
-
   font-size: $font-size-medium;
   white-space: pre-wrap;
   word-wrap: break-word;
 
   @media #{$medium-down} {
-    margin-bottom: $line-height-small;
     padding: $line-height-medium;
   }
 }
@@ -37,7 +34,6 @@ li code {
 
 pre[class*='language-'] {
   padding: $line-height-base;
-  margin-bottom: $line-height-base;
 }
 
 code[class*='language-'],

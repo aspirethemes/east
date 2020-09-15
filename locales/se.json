@@ -19,8 +19,9 @@
   "Search": "Sök",
   "Type to Search": "Skriv sökord",
 
+  "Account": "konto",
   "Log In": "Logga In",
-  "Sign Up": "Följ",
+  "Log Out": "Logga ut",
   "Continue": "Fortsätt",
   "Subscribe": "Prenumerera",
   "Subscribe Now": "Prenumerera Nu",
@@ -42,7 +43,7 @@
 
   "Choose your subscription": "Välj prenumeration",
   "Unlock full access to {siteTitle} and see the entire library of members-only content & updates.": "Lås upp för full tillgång till {siteTitle} och hela arkivet av material och uppdateringar bara för medlemmar.",
-  "Sign Up to {siteTitle}": "Följ {siteTitle}",
+  "Subscribe to {siteTitle}": "Prenumerera på {siteTitle}",
 
   "Welcome back!": "Välkommen tillbaka!",
   "Log Into your account again.": "Logga in på ditt konto igen.",

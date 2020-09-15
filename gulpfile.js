@@ -97,7 +97,7 @@
       '!bower_components/**',
       '!.git/**',
       '!.DS_Store'
-      ])
+    ], { dot: true })
     .pipe(zip('east.zip'))
     .pipe(gulp.dest('../'))
     done();

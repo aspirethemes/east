@@ -19,8 +19,9 @@
   "Search": "Search",
   "Type to Search": "Type to Search",
 
+  "Account": "Account",
   "Log In": "Log In",
-  "Sign Up": "Sign Up",
+  "Log Out": "Log Out",
   "Continue": "Continue",
   "Subscribe": "Subscribe",
   "Subscribe Now": "Subscribe Now",
@@ -42,7 +43,7 @@
 
   "Choose your subscription": "Choose your subscription",
   "Unlock full access to {siteTitle} and see the entire library of members-only content & updates.": "Unlock full access to {siteTitle} and see the entire library of members-only content & updates.",
-  "Sign Up to {siteTitle}": "Sign Up to {siteTitle}",
+  "Subscribe to {siteTitle}": "Subscribe to {siteTitle}",
 
   "Welcome back!": "Welcome back!",
   "Log Into your account again.": "Log Into your account again.",
