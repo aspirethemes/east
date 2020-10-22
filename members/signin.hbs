@@ -22,17 +22,17 @@
         <div class="box box--news-letter subscribe-form">
           <form data-members-form='signin' class='subscribe-form'>
             <div class='form-group'>
-              <input type='email' placeholder='{{t 'Email ' }}' data-members-email autocomplete='false'>
+              <input type='email' placeholder='{{t 'Your email' }}' data-members-email>
               <button type='submit' class='button'>{{t 'Send login link' }}</button>
             </div>
 
-            <div class='u-alert u-alert--success u-mt-8'>{{t 'Please check your inbox and click the link to confirm your subscription.' }}</div>
+            <div class='u-alert u-alert--success u-mt-8'>{{t 'Please check your inbox and click the link to complete the login.' }}</div>
             <div class='u-alert u-alert--invalid u-mt-8'>{{t 'Please enter a valid email address!' }}</div>
             <div class='u-alert u-alert--error u-mt-8'>{{t 'An error occurred, please try again later.' }}</div>
           </form>
         </div>
 
-        <p class='font-small'>{{t "Don't have an account yet?"}} <a href='/signup/' class='u-link'>{{t 'Sign Up'}}</a></p>
+        <p class='font-small'>{{t "Don't have an account yet?"}} <a href='{{ @site.url }}/signup/' class='u-link'>{{t 'Sign Up'}}</a></p>
       </div>
     </div>
   {{/if}}

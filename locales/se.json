@@ -25,15 +25,11 @@
   "Continue": "Fortsätt",
   "Subscribe": "Prenumerera",
   "Subscribe Now": "Prenumerera Nu",
-  "Your email ": "Din email",
+  "Your email": "Din email",
+  "Please check your inbox and click the link to complete the login.": "Var vänlig kontrollera din inbox och klicka på länken för att slutföra inloggningen.",
   "Please check your inbox and click the link to confirm your subscription.": "Var vänlig kontrollera din inbox och klicka på länken för att bekräfta din prenumeration.",
   "Please enter a valid email address!": "Var vänlig ange en giltig email-adress!",
   "An error occurred, please try again later.": "Ett fel har inträffat, var vänlig försök senare.",
-
-  "You've successfully subscribed to {siteTitle}": "Du prenumererar nu på {siteTitle}",
-  "Great! Next, complete checkout for full access to {siteTitle}": "Utmärkt! Vidare, fullfölj beställningen för full tillgång till {siteTitle}",
-  "Welcome back! You've successfully signed in.": "Välkommen tillbaka! Du är nu inloggad.",
-  "Success! Your account is fully activated, you now have access to all content.": "Genomförd! Ditt konto är nu helt aktiverat, och du har nu tillgång till allt innehåll.",
 
   "Already have an account?": "Har du redan ett konto?",
   "Don't have an account yet?": "Saknar du konto?",

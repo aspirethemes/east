@@ -1,9 +1,9 @@
 <div class='c-member-plans'>
   <div class='c-member-plan'>
     <header class='c-member-plan__header'>
-      <h3 class='c-member-plan__title'>Monthly</h3>
-      <span class='c-member-plan__sign'>$</span>
-      <strong class='c-member-plan__amount'>{{ @price.monthly }} </strong> USD / month
+      <h3 class='c-member-plan__title'>{{t 'Monthly'}}</h3>
+      <span class='c-member-plan__sign'>{{ price currency=@price.currency }}</span>
+      <strong class='c-member-plan__amount'>{{ @price.monthly }} </strong> <span class='uppercase'>{{ @price.currency }}</span> / {{t 'month'}}
     </header>
     <div class='c-member-plan__content'>
       <ul class='c-member-plan__list'>
@@ -12,15 +12,15 @@
         <li>Support independent publishing</li>
         <li>Simple, secure card payment</li>
       </ul>
-      <a class='button' href='javascript:void(0)' data-members-plan='Monthly'>Choose this plan</a>
+      <a class='button' href='javascript:void(0)' data-members-plan='Monthly'>{{t 'Choose this plan'}}</a>
     </div>
   </div>
 
   <div class='c-member-plan'>
     <header class='c-member-plan__header'>
-      <h3 class='c-member-plan__title'>Yearly</h3>
-      <span class='c-member-plan__sign'>$</span>
-      <strong class='c-member-plan__amount'>{{ @price.yearly }}</strong> USD / year
+      <h3 class='c-member-plan__title'>{{t 'Yearly'}}</h3>
+      <span class='c-member-plan__sign'>{{ price currency=@price.currency }}</span>
+      <strong class='c-member-plan__amount'>{{ @price.yearly }}</strong> <span class='uppercase'>{{ @price.currency }}</span> / {{t 'year'}}
     </header>
     <div class='c-member-plan__content'>
       <ul class='c-member-plan__list'>
@@ -30,7 +30,7 @@
         <li>Simple, secure card payment</li>
         <li>One easy payment instead of 12!</li>
       </ul>
-      <a class='button' href='javascript:void(0)' data-members-plan='Yearly'>Choose this plan</a>
+      <a class='button' href='javascript:void(0)' data-members-plan='Yearly'>{{t 'Choose this plan'}}</a>
     </div>
   </div>
 </div>

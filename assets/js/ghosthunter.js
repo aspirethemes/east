@@ -58,7 +58,7 @@
 
 			//This is where we'll build the index for later searching. It's not a big deal to build it on every load as it takes almost no space without data
 			this.index = lunr(function () {
-        this.use(lunr.multiLanguage('en', 'ru', 'fr', 'de', 'es', 'pt', 'it', 'fi', 'du', 'da'))
+        this.use(lunr.multiLanguage('en', 'ru', 'fr', 'de', 'es', 'pt', 'it', 'fi', 'nl', 'da'))
 				this.field('title', {boost: 10})
 				this.field('description')
 				this.field('link')
@@ -103,7 +103,7 @@
 			var index = this.index,
         blogData = this.blogData;
 
-      var url = "/ghost/api/v2/content/posts/?key=" + search_api_key + "&limit=all&formats=plaintext";
+      var url = "/ghost/api/v4/content/posts/?key=" + search_api_key + "&limit=all&formats=plaintext";
 
       // TODO, add pages to the query
       if ( this.includepages ) {

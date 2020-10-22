@@ -61,7 +61,7 @@
       './node_modules/lunr-languages/lunr.pt.js',
       './node_modules/lunr-languages/lunr.it.js',
       './node_modules/lunr-languages/lunr.fi.js',
-      './node_modules/lunr-languages/lunr.du.js',
+      './node_modules/lunr-languages/lunr.nl.js',
       './node_modules/lunr-languages/lunr.da.js',
       './node_modules/lunr-languages/lunr.multi.js',
       './assets/js/ghosthunter.js',

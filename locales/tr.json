@@ -25,15 +25,11 @@
   "Continue": "Devam Et",
   "Subscribe": "Abone Ol",
   "Subscribe Now": "Şimdi Abone Ol",
-  "Your email ": "E-Posta adresiniz",
+  "Your email": "E-Posta adresiniz",
+  "Please check your inbox and click the link to complete the login.": "Lütfen gelen kutunuzu kontrol edin ve girişi tamamlamak için bağlantıya tıklayın.",
   "Please check your inbox and click the link to confirm your subscription.": "Lütfen gelen kutunuzu kontrol edin ve aboneliğinizi onaylamak için bağlantıya tıklayın.",
   "Please enter a valid email address!": "Lütfen geçerli bir e-posta adresi girin!",
   "An error occurred, please try again later.": "Bir hata meydana geldi, lütfen tekrar deneyin.",
-
-  "You've successfully subscribed to {siteTitle}": "{siteTitle} sitesine başarıyla abone oldunuz",
-  "Great! Next, complete checkout for full access to {siteTitle}": "Harika! Şimdi {siteTitle} sitesindeki içeriklerin tamamına erişmek için planlara göz atın",
-  "Welcome back! You've successfully signed in.": "Tekrar hoşgeldiniz! Başarıyla giriş yaptınız.",
-  "Success! Your account is fully activated, you now have access to all content.": "Başarılı! Hesabınız tamamen aktif edildi, artık tüm içeriklere erişebilirsiniz.",
 
   "Already have an account?": "Zaten bir hesabınız var mı?",
   "Don't have an account yet?": "Henüz bir hesabınız yok mu?",
@@ -43,7 +39,13 @@
 
   "Choose your subscription": "Aboneliğinizi seçin",
   "Unlock full access to {siteTitle} and see the entire library of members-only content & updates.": "{siteTitle} sitesindeki abonelere özel içeriklere erişmek için abonelik planınızı seçin ve hiçbir şeyi kaçırmayın.",
+  "Subscribe to {siteTitle}": "{siteTitle} sitesine Kayıt Olun",
   "Get access to premium content": "Özel içeriklere erişin",
+  "Choose this plan": "Bu planı seçin",
+  "Monthly": "Aylık",
+  "Yearly": "Yıllık",
+  "month": "ay",
+  "year": "yıl",
 
   "Welcome back!": "Tekrar Hoşgeldiniz!",
   "Log Into your account again.": "Hesabınıza tekrar Giriş Yapın.",

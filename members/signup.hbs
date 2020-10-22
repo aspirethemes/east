@@ -23,7 +23,7 @@
     </div>
 
   {{else}}
-  {{!-- Not logged in: Sign up --}}
+  {{!-- Not logged in: Subscribe --}}
     <div class='row row--full'>
       <div class='column large-12'>
         <header class='page-header box'>
@@ -38,9 +38,9 @@
     <div class='row row--full'>
       <div class='column medium-6 large-5'>
         <div class="box box--news-letter subscribe-form">
-          <form data-members-form='signup' class='subscribe-form'>
+          <form data-members-form='subscribe' class='subscribe-form'>
             <div class='form-group'>
-              <input type='email' placeholder='{{t 'Email ' }}' data-members-email autocomplete='false'>
+              <input type='email' placeholder='{{t 'Your email' }}' data-members-email>
               <button type='submit' class='button'>{{t 'Continue' }}</button>
             </div>
 
@@ -50,7 +50,7 @@
           </form>
         </div>
 
-        <p class='font-small'>{{t 'Already have an account?' }} <a href='/signin/' class='u-link'>{{t 'Log In' }}</a></p>
+        <p class='font-small'>{{t 'Already have an account?' }} <a href='{{ @site.url }}/signin/' class='u-link'>{{t 'Log In' }}</a></p>
       </div>
     </div>
   {{/if}}

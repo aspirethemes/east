@@ -22,12 +22,13 @@ the {body} of the default.hbs template, which contains our header/footer. }}
           </div>
         </header>
 
+        <div class='post-content'>
+          {{ content }}
+        </div>
+        
         {{#if access}}
-          <div class='post-content'>
-            {{ content }}
-            <div class='post__tags'>
-              {{tags separator=''}}
-            </div>
+          <div class='post__tags'>
+            {{tags separator=''}}
           </div>
 
           <hr>
@@ -94,15 +95,14 @@ the {body} of the default.hbs template, which contains our header/footer. }}
           {{> post-prev-next-pagination}}
         {{/if}}
 
-        {{#if @labs.members}}
-          {{#unless @member}}
-            {{#if access}}
-              {{> subscribe-form}}
-            {{/if}}
-          {{/unless}}
-        {{/if}}
+        {{#unless @member}}
+          {{#if access}}
+            {{> subscribe-form}}
+          {{/if}}
+        {{/unless}}
 
         {{#unless access}}
+          <hr>
           {{> post-upgrade-cta }}
         {{/unless}}
 

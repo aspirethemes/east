@@ -75,9 +75,10 @@ a.kg-bookmark-container {
 }
 
 .kg-bookmark-author {
-  margin-left: half($line-height-medium);
+  font-weight: $font-weight-bold;
+  margin-left: half($line-height-small);
 
-  :after {
+  &:after {
     content: '•';
     margin: 0 half($line-height-medium);
   }
