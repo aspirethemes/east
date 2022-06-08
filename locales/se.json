@@ -21,10 +21,7 @@
 
   "Account": "konto",
   "Log In": "Logga In",
-  "Log Out": "Logga ut",
-  "Continue": "Fortsätt",
   "Subscribe": "Prenumerera",
-  "Subscribe Now": "Prenumerera Nu",
   "Your email": "Din email",
   "Please check your inbox and click the link to complete the login.": "Var vänlig kontrollera din inbox och klicka på länken för att slutföra inloggningen.",
   "Please check your inbox and click the link to confirm your subscription.": "Var vänlig kontrollera din inbox och klicka på länken för att bekräfta din prenumeration.",
@@ -37,16 +34,8 @@
   "This post is for paying subscribers only": "Den här artikeln är enbart för betalande prenumeranter",
   "This post is for subscribers only": "Den här artikeln är enbart för prenumeranter",
 
-  "Choose your subscription": "Välj prenumeration",
-  "Unlock full access to {siteTitle} and see the entire library of members-only content & updates.": "Lås upp för full tillgång till {siteTitle} och hela arkivet av material och uppdateringar bara för medlemmar.",
-  "Subscribe to {siteTitle}": "Prenumerera på {siteTitle}",
-
-  "Welcome back!": "Välkommen tillbaka!",
-  "Log Into your account again.": "Logga in på ditt konto igen.",
-  "Send login link": "Skicka länk för inloggning",
-
-  "Nice, you're a subscriber!": "Utmärkt, du har en prenumeration!",
-  "You have an active {siteTitle} account with access to all posts.": "Du har ett aktivt {siteTitle} konto med tillgång till alla inlägg.",
-  "You're a subscriber to free members updates": "Du är prenumerant med tillgång till uppdateringar för icke-betalande",
-  "You are subscribed to free updates from {siteTitle}, but don't have a paid subscription to read all the posts.": "Du är prenumerant med tillgång till uppdateringar från {siteTitle}, men saknar betald prenumeration med tillgång till alla inlägg."
+  "This post is for paying subscribers only": "Den här artikeln är enbart för betalande prenumeranter",
+  "This post is for subscribers only": "Den här artikeln är enbart för prenumeranter",
+  "This post is for subscribers on the ": "Det här inlägget är för prenumeranter på ",
+  "Upgrade your account": "Uppgradera ditt konto"
 }

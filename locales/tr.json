@@ -21,10 +21,7 @@
 
   "Account": "Hesap",
   "Log In": "Giriş Yap",
-  "Log Out": "Çıkış Yap",
-  "Continue": "Devam Et",
   "Subscribe": "Abone Ol",
-  "Subscribe Now": "Şimdi Abone Ol",
   "Your email": "E-Posta adresiniz",
   "Please check your inbox and click the link to complete the login.": "Lütfen gelen kutunuzu kontrol edin ve girişi tamamlamak için bağlantıya tıklayın.",
   "Please check your inbox and click the link to confirm your subscription.": "Lütfen gelen kutunuzu kontrol edin ve aboneliğinizi onaylamak için bağlantıya tıklayın.",
@@ -36,23 +33,6 @@
 
   "This post is for paying subscribers only": "Bu gönderi yalnızca ücretli aboneler içindir",
   "This post is for subscribers only": "Bu gönderi yalnızca aboneler içindir",
-
-  "Choose your subscription": "Aboneliğinizi seçin",
-  "Unlock full access to {siteTitle} and see the entire library of members-only content & updates.": "{siteTitle} sitesindeki abonelere özel içeriklere erişmek için abonelik planınızı seçin ve hiçbir şeyi kaçırmayın.",
-  "Subscribe to {siteTitle}": "{siteTitle} sitesine Kayıt Olun",
-  "Get access to premium content": "Özel içeriklere erişin",
-  "Choose this plan": "Bu planı seçin",
-  "Monthly": "Aylık",
-  "Yearly": "Yıllık",
-  "month": "ay",
-  "year": "yıl",
-
-  "Welcome back!": "Tekrar Hoşgeldiniz!",
-  "Log Into your account again.": "Hesabınıza tekrar Giriş Yapın.",
-  "Send login link": "Giriş bağlantısını gönder",
-
-  "Nice, you're a subscriber!": "Güzel, abonesiniz!",
-  "You have an active {siteTitle} account with access to all posts.": "{siteTitle} sitesindeki tüm içeriklere erişimi olan bir hesaba sahipsiniz.",
-  "You're a subscriber to free members updates": "Ücretsiz abonelik içeriklerine abonesiniz",
-  "You are subscribed to free updates from {siteTitle}, but don't have a paid subscription to read all the posts.": "{siteTitle} sitesindeki ücretsiz içeriklere abonesiniz, ancak tüm içeriklere erişebilmek için ücretli abonelik edinmeniz gerekmektedir."
+  "This post is for subscribers on the ": "Bu gönderi, aboneler içindir ",
+  "Upgrade your account": "Hesabınızı yükseltin"
 }

@@ -19,11 +19,10 @@
           <ul class='list-bare text-center'>
             {{ navigation }}
             {{#if @member}}
-              <li><a href='{{ @site.url }}/account/' class='c-nav__link'>{{t 'Account' }}</a></li>
-              <li><a href='#signout' class='c-nav__link' data-members-signout>{{t 'Log Out' }}</a></li>
+              <li class='is-membership'><a href='#/portal/account' class='c-nav__link'>{{t 'Account' }}</a></li>
             {{else}}
-              <li><a href='{{ @site.url }}/signin/'>{{t 'Log In' }}</a></li>
-              <li><a href='{{ @site.url }}/signup/' class='regular u-link'>{{t 'Subscribe' }}</a></li>
+              <li class='is-membership'><a href='#/portal/signin'>{{t 'Log In' }}</a></li>
+              <li class='is-membership'><a href='#/portal/signup' class='regular u-link'>{{t 'Subscribe' }}</a></li>
             {{/if}}
             <li><a class='subscribe-button icon-feed' href='{{ @site.url }}/rss/'>RSS</a></li>
           </ul>

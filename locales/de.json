@@ -21,10 +21,7 @@
 
   "Account": "Konto",
   "Log In": "Einloggen",
-  "Log Out": "Ausloggen",
-  "Continue": "Fortsetzen",
   "Subscribe": "Abonnieren",
-  "Subscribe Now": "Abonniere jetzt",
   "Your email": "Deine E-Mail-Adresse",
   "Please check your inbox and click the link to complete the login.": "Bitte überprüfen Sie Ihren Posteingang und klicken Sie auf den Link, um die Anmeldung abzuschließen.",
   "Please check your inbox and click the link to confirm your subscription.": "Bitte überprüfen Sie Ihren Posteingang und klicken Sie auf den Link, um Ihr Abonnement zu bestätigen.",
@@ -36,23 +33,6 @@
 
   "This post is for paying subscribers only": "Dieser Beitrag ist nur für zahlende Abonnenten",
   "This post is for subscribers only": "Dieser Beitrag ist nur für Abonnenten",
-
-  "Choose your subscription": "Wählen Sie Ihr Abonnement",
-  "Unlock full access to {siteTitle} and see the entire library of members-only content & updates.": "Schalte den vollen Zugriff auf {siteTitle} frei und sieh dir die gesamte Bibliothek mit Inhalten und Updates nur für Mitglieder an.",
-  "Subscribe to {siteTitle}": "Abonnieren bei {siteTitle}",
-  "Get access to premium content": "Erhalten Sie Zugang zu Premium-Inhalten",
-  "Choose this plan": "Wählen Sie diesen Plan",
-  "Monthly": "Monatlich",
-  "Yearly": "Jährlich",
-  "month": "Monat",
-  "year": "Jahr",
-
-  "Welcome back!": "Willkommen zurück!",
-  "Log Into your account again.": "Melden Sie sich erneut in Ihrem Konto an.",
-  "Send login link": "Anmeldelink senden",
-
-  "Nice, you're a subscriber!": "Schön, dass Sie Abonnent sind!",
-  "You have an active {siteTitle} account with access to all posts.": "Sie haben ein aktives {siteTitle} Konto mit Zugriff auf alle Posts.",
-  "You're a subscriber to free members updates": "Sie sind Abonnent der kostenlosen Mitgliederaktualisierungen",
-  "You are subscribed to free updates from {siteTitle}, but don't have a paid subscription to read all the posts.": "Sie haben kostenlose Updates von {siteTitle} abonniert, haben jedoch kein kostenpflichtiges Abonnement, um alle Beiträge zu lesen."
+  "This post is for subscribers on the ": "Dieser Beitrag ist für Abonnenten der ",
+  "Upgrade your account": "Aktualisieren Sie Ihr Konto"
 }

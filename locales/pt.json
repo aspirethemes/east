@@ -21,10 +21,7 @@
 
   "Account": "Conta",
   "Log In": "Assinar em",
-  "Log Out": "Sair",
-  "Continue": "Continuar",
   "Subscribe": "Se inscrever",
-  "Subscribe Now": "Inscreva-se agora",
   "Your email": "Seu endereço de email",
   "Please check your inbox and click the link to complete the login.": "Verifique sua caixa de entrada e clique no link para concluir o login.",
   "Please check your inbox and click the link to confirm your subscription.": "Verifique sua caixa de entrada e clique no link para confirmar sua assinatura.",
@@ -35,24 +32,7 @@
   "Don't have an account yet?": "Não tem uma conta ainda?",
 
   "This post is for paying subscribers only": "Esta postagem é apenas para assinantes pagantes",
-  "Esta publicação é apenas para assinantes": "This post is for subscribers only",
-
-  "Choose your subscription": "Escolha sua assinatura",
-  "Unlock full access to {siteTitle} and see the entire library of members-only content & updates.": "Desbloqueie o acesso total a {siteTitle} e veja toda a biblioteca de conteúdo e atualizações somente para membros.",
-  "Subscribe to {siteTitle}": "Inscreva-se em {siteTitle}",
-  "Get access to premium content": "Tenha acesso ao conteúdo premium",
-  "Choose this plan": "Escolha este plano",
-  "Monthly": "Por mês",
-  "Yearly": "Anual",
-  "month": "mês",
-  "year": "ano",
-
-  "Welcome back!": "Bem vindo de volta!",
-  "Log Into your account again.": "Faça login na sua conta novamente.",
-  "Send login link": "Enviar link de login",
-
-  "Nice, you're a subscriber!": "Legal, você é um assinante!",
-  "You have an active {siteTitle} account with access to all posts.": "Você tem uma conta ativa do {siteTitle} com acesso a todas as postagens.",
-  "You're a subscriber to free members updates": "Você é assinante de atualizações gratuitas para membros",
-  "You are subscribed to free updates from {siteTitle}, but don't have a paid subscription to read all the posts.": "Você se inscreveu para receber atualizações gratuitas em {siteTitle}, mas não possui uma assinatura paga para ler todas as postagens."
+  "This post is for subscribers only": "Este post é apenas para assinantes",
+  "This post is for subscribers on the ": "Este post é para assinantes do ",
+  "Upgrade your account": "Atualize sua conta"
 }

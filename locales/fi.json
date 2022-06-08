@@ -21,10 +21,7 @@
 
   "Account": "Tili",
   "Log In": "Kirjaudu sisään",
-  "Log Out": "Kirjautua ulos",
-  "Continue": "Jatkaa",
   "Subscribe": "Tilaa",
-  "Subscribe Now": "Tilaa nyt",
   "Your email": "Sähköpostiosoitteesi",
   "Please check your inbox and click the link to complete the login.": "Tarkista postilaatikkosi ja napsauta linkkiä suorittaaksesi sisäänkirjautumisen.",
   "Please check your inbox and click the link to confirm your subscription.": "Tarkista postilaatikko ja napsauta linkkiä vahvistaaksesi tilauksesi.",
@@ -36,23 +33,6 @@
 
   "This post is for paying subscribers only": "Tämä viesti on tarkoitettu vain maksaville tilaajille",
   "This post is for subscribers only": "Tämä viesti on tarkoitettu vain tilaajille",
-
-  "Choose your subscription": "Valitse tilauksesi",
-  "Unlock full access to {siteTitle} and see the entire library of members-only content & updates.": "Avaa {siteTitle} -sovelluksen täydet käyttöoikeudet ja katso koko kirja, joka sisältää vain jäsenille tarkoitettua sisältöä ja päivityksiä.",
-  "Subscribe to {siteTitle}": "Tilaa {siteTitle}",
-  "Get access to premium content": "Pääset premium-sisältöön",
-  "Choose this plan": "Valitse tämä suunnitelma",
-  "Monthly": "Kuukausittain",
-  "Yearly": "Vuosittain",
-  "month": "kuukausi",
-  "year": "vuosi",
-
-  "Welcome back!": "Tervetuloa takaisin!",
-  "Log Into your account again.": "Kirjaudu tiliisi uudelleen.",
-  "Send login link": "Lähetä kirjautumislinkki",
-
-  "Nice, you're a subscriber!": "Kiva, olet tilaaja!",
-  "You have an active {siteTitle} account with access to all posts.": "Sinulla on aktiivinen {siteTitle} -tili, jolla on pääsy kaikkiin viesteihin.",
-  "You're a subscriber to free members updates": "Olet tilaaja ilmaisille päivityksille jäsenille",
-  "You are subscribed to free updates from {siteTitle}, but don't have a paid subscription to read all the posts.": "Olet tilannut ilmaiset päivitykset sivustolta {siteTitle}, mutta sinulla ei ole maksettua tilausta kaikkien viestien lukemiseen."
+  "This post is for subscribers on the ": "Tämä viesti on tilaajille ",
+  "Upgrade your account": "Päivitä käyttäjätilisi"
 }

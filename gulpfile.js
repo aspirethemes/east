@@ -96,7 +96,8 @@
       '!node_modules/**',
       '!bower_components/**',
       '!.git/**',
-      '!.DS_Store'
+      '!.DS_Store',
+      '!package-lock.json'
     ], { dot: true })
     .pipe(zip('east.zip'))
     .pipe(gulp.dest('../'))

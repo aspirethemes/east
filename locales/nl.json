@@ -21,10 +21,7 @@
 
   "Account": "Account",
   "Log In": "Aanmelden",
-  "Log Out": "Uitloggen",
-  "Continue": "Doorgaan met",
   "Subscribe": "abonneren",
-  "Subscribe Now": "Abonneer nu",
   "Your email": "jouw e-mailadres",
   "Please check your inbox and click the link to complete the login.": "Controleer uw inbox en klik op de link om het inloggen te voltooien.",
   "Please check your inbox and click the link to confirm your subscription.": "Controleer je inbox en klik op de link om je abonnement te bevestigen.",
@@ -36,23 +33,6 @@
 
   "This post is for paying subscribers only": "Dit bericht is alleen voor betalende abonnees",
   "This post is for subscribers only": "Dit bericht is alleen voor abonnees",
-
-  "Choose your subscription": "Kies uw abonnement",
-  "Unlock full access to {siteTitle} and see the entire library of members-only content & updates.": "Ontgrendel volledige toegang tot {siteTitle} en bekijk de volledige bibliotheek met alleen leden-inhoud en updates.",
-  "Subscribe to {siteTitle}": "Abonneer voor {siteTitle}",
-  "Get access to premium content": "Krijg toegang tot premium content",
-  "Choose this plan": "Kies dit plan",
-  "Monthly": "Maandelijks",
-  "Yearly": "Jaarlijks",
-  "month": "maand",
-  "year": "jaar",
-
-  "Welcome back!": "Welkom terug!",
-  "Log Into your account again.": "Meld u opnieuw aan bij uw account.",
-  "Send login link": "Verzend login link",
-
-  "Nice, you're a subscriber!": "Leuk, je bent een abonnee!",
-  "You have an active {siteTitle} account with access to all posts.": "Je hebt een actief {siteTitle} -account met toegang tot alle berichten.",
-  "You're a subscriber to free members updates": "U bent geabonneerd op gratis ledenupdates",
-  "You are subscribed to free updates from {siteTitle}, but don't have a paid subscription to read all the posts.": "Je bent geabonneerd op gratis updates van {siteTitle}, maar je hebt geen betaald abonnement om alle berichten te lezen."
+  "This post is for subscribers on the ": "Dit bericht is voor abonnees op de ",
+  "Upgrade your account": "Je account upgraden"
 }

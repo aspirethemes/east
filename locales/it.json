@@ -21,10 +21,7 @@
 
   "Account": "account",
   "Log In": "Registrati",
-  "Log Out": "Disconnettersi",
-  "Continue": "Continua",
   "Subscribe": "sottoscrivi",
-  "Subscribe Now": "Iscriviti ora",
   "Your email": "Tu correo electrónico",
   "Please check your inbox and click the link to complete the login.": "Controlla la tua casella di posta e fai clic sul link per completare il login.",
   "Please check your inbox and click the link to confirm your subscription.": "Controlla la tua casella di posta e fai clic sul link per confermare l'abbonamento.",
@@ -36,23 +33,6 @@
 
   "This post is for paying subscribers only": "Questo post è solo per abbonati paganti",
   "This post is for subscribers only": "Questo post è solo per gli abbonati",
-
-  "Choose your subscription": "Scegli il tuo abbonamento",
-  "Unlock full access to {siteTitle} and see the entire library of members-only content & updates.": "Sblocca l'accesso completo a {siteTitle} e visualizza l'intera libreria di contenuti e aggiornamenti per soli membri.",
-  "Subscribe to {siteTitle}": "Iscriviti a {siteTitle}",
-  "Get access to premium content": "Ottieni l'accesso a contenuti premium",
-  "Choose this plan": "Scegli questo piano",
-  "Monthly": "Mensile",
-  "Yearly": "Annuale",
-  "month": "mese",
-  "year": "anno",
-
-  "Welcome back!": "Ben tornato!",
-  "Log Into your account again.": "Accedi nuovamente al tuo account.",
-  "Send login link": "Invia link di accesso",
-
-  "Nice, you're a subscriber!": "Bene, sei un abbonato!",
-  "You have an active {siteTitle} account with access to all posts.": "Hai un account {siteTitle} attivo con accesso a tutti i post.",
-  "You're a subscriber to free members updates": "Sei un abbonato a aggiornamenti gratuiti dei membri",
-  "You are subscribed to free updates from {siteTitle}, but don't have a paid subscription to read all the posts.": "Sei iscritto agli aggiornamenti gratuiti da {siteTitle}, ma non hai un abbonamento a pagamento per leggere tutti i post."
+  "This post is for subscribers on the ": "Questo post è per gli abbonati su ",
+  "Upgrade your account": "Aggiorna il tuo account"
 }

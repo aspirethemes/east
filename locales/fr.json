@@ -21,10 +21,7 @@
 
   "Account": "Compte",
   "Log In": "Se connecter",
-  "Log Out": "Déconnexion",
-  "Continue": "Continuez",
   "Subscribe": "S’abonner",
-  "Subscribe Now": "S’abonner",
   "Your email": "Votre adresse email",
   "Please check your inbox and click the link to complete the login.": "Veuillez vérifier votre boîte de réception et cliquer sur le lien pour terminer la connexion.",
   "Please check your inbox and click the link to confirm your subscription.": "Veuillez vérifier votre boîte de réception et cliquez sur le lien pour confirmer votre abonnement.",
@@ -34,25 +31,8 @@
   "Already have an account?": "Vous avez déjà un compte?",
   "Don't have an account yet?": "Vous n'avez pas encore de compte?",
 
-  "This post is for paying subscribers only": "Cet article est réservé aux abonnés payants",
+  "This post is for paying subscribers only": "Cet article est réservé aux abonnements payants",
   "This post is for subscribers only": "Cet article est réservé aux abonnés",
-
-  "Choose your subscription": "Choisissez votre abonnement",
-  "Unlock full access to {siteTitle} and see the entire library of members-only content & updates.": "Déverrouillez l'accès complet à {siteTitle} et consultez l'intégralité de la bibliothèque de contenu et de mises à jour réservée aux membres.",
-  "Subscribe to {siteTitle}": "Subscribe à {siteTitle}",
-  "Get access to premium content.": "Accédez au contenu exclusif",
-  "Choose this plan": "Choisissez ce plan",
-  "Monthly": "Mensuel",
-  "Yearly": "Annuel",
-  "month": "mois",
-  "year": "année",
-
-  "Welcome back!": "Nous saluons le retour!",
-  "Log Into your account again.": "Connectez-vous à nouveau à votre compte.",
-  "Send login link": "Envoyer le lien de connexion",
-
-  "Nice, you're a subscriber!": "Nice, vous êtes abonné!",
-  "You have an active {siteTitle} account with access to all posts.": "Vous avez un compte actif {siteTitle} avec accès à tous les articles.",
-  "You're a subscriber to free members updates": "Vous êtes abonné aux mises à jour gratuites des membres",
-  "You are subscribed to free updates from {siteTitle}, but don't have a paid subscription to read all the posts.": "Vous êtes abonné aux mises à jour gratuites de {siteTitle}, mais vous n'avez pas d'abonnement payant pour lire tous les articles."
+  "This post is for subscribers on the ": "Ce message est pour les abonnés sur le ",
+  "Upgrade your account": "Ameliorez votre compte"
 }

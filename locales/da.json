@@ -21,10 +21,7 @@
 
   "Account": "Konto",
   "Log In": "Log ind",
-  "Log Out": "Log ud",
-  "Continue": "Blive ved",
   "Subscribe": "Tilmeld",
-  "Subscribe Now": "Tilmeld nu",
   "Your email": "Din email adresse",
   "Please check your inbox and click the link to complete the login.": "Kontroller din indbakke, og klik på linket for at fuldføre login.",
   "Please check your inbox and click the link to confirm your subscription.": "Kontroller din indbakke, og klik på linket for at bekræfte dit abonnement.",
@@ -36,23 +33,6 @@
 
   "This post is for paying subscribers only": "Dette indlæg er kun til betalende abonnenter",
   "This post is for subscribers only": "Dette indlæg er kun til abonnenter",
-
-  "Choose your subscription": "Vælg dit abonnement",
-  "Unlock full access to {siteTitle} and see the entire library of members-only content & updates.": "Lås op for fuld adgang til {siteTitle} og se hele biblioteket med kun indhold og opdateringer til medlemmer.",
-  "Subscribe to {siteTitle}": "Tilmeld dig {siteTitle}",
-  "Get access to premium content": "Få adgang til premium-indhold",
-  "Choose this plan": "Vælg denne plan",
-  "Monthly": "Månedlige",
-  "Yearly": "årlig",
-  "month": "måned",
-  "year": "år",
-
-  "Welcome back!": "Velkommen tilbage!",
-  "Log Into your account again.": "Log ind på din konto igen.",
-  "Send login link": "Send login-link",
-
-  "Nice, you're a subscriber!": "Dejligt, du er abonnent!",
-  "You have an active {siteTitle} account with access to all posts.": "Du har en aktiv {siteTitle} -konto med adgang til alle indlæg.",
-  "You're a subscriber to free members updates": "Du er abonnent på gratis opdateringer af medlemmer",
-  "You are subscribed to free updates from {siteTitle}, but don't have a paid subscription to read all the posts.": "Du abonnerer på gratis opdateringer fra {siteTitle}, men har ikke et betalt abonnement for at læse alle indlæg."
+  "This post is for subscribers on the ": "Dette indlæg er for abonnenter på ",
+  "Upgrade your account": "Opgrader din konto"
 }
