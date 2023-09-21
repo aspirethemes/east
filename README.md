@@ -1,3 +1,5 @@
 # East Ghost Theme
 
-Blog and Multipurpose Clean Ghost Theme
+* * *
+
+📄 [Theme Documentation](https://aspirethemes.com/docs/east)
